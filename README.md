@@ -6,8 +6,11 @@ Principles for us to use. ☀️
 
 Most of the principles here are NOT original.
 
-> "I believe in the discipline of mastering the best of what other 
-> people have figured out." --> Charlie Munger
+> "I believe in the discipline of mastering the best of what other
+> people have figured out." - Charlie Munger
+
+> "if I have seen further [than others], it is by standing on the
+> shoulders of giants." - Isaac Newton
 
 ## Goal
 
