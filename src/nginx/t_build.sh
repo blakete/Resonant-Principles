@@ -1,1 +1,1 @@
-docker build -t nginx-container .
+docker build -f Dockerfile.prod -t nginx-container .

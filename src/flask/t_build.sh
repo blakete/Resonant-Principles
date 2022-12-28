@@ -1,1 +1,1 @@
-docker build -t flask-container .
+docker build -f Dockerfile.prod -t flask-container .

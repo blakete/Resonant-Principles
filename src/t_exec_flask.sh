@@ -1,1 +1,1 @@
-docker exec -it src-web-1 /bin/sh
+docker exec -it src-app-1 /bin/sh
