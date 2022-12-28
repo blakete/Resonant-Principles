@@ -2,6 +2,8 @@
 
 Principles for us to use. ☀️
 
+[resonantprinciples.com](resonantprinciples.com)
+
 ## Disclaimers
 
 Most of the principles here are NOT original.
