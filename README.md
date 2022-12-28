@@ -1,4 +1,4 @@
-# Resonant Principles☀️
+# Resonant Principles ☀️
 
 This page is the result of following <b>Principle #1: Radical Transparency</b>.
 
