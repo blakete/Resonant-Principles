@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: ./flask
+      dockerfile: Dockerfile.prod
+    # expose port to nginx container, not host machine
+    expose:
+      - "5000"
+  web:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile.prod
+    env_file: ./nginx/nginx.env
+    # map nginx reverse proxy port to host machine
+    ports:
+      - 8080:443
+      - 8000:80
+    depends_on:
+      - app
+    

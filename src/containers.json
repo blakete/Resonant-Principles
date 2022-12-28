@@ -1,6 +1,6 @@
 {
     "web": {
-        "image": ":principia-container-service.nginx-container.2",
+        "image": ":principia-container-service.flask-container.4",
         "command": [],
         "ports": {
             "80": "HTTP"
@@ -12,7 +12,7 @@
         }
     },
     "app": {
-        "image": ":principia-container-service.flask-container.1",
+        "image": ":principia-container-service.flask-container.3",
         "ports": {
             "5000": "HTTP"
         }
