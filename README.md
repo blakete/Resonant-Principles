@@ -2,7 +2,7 @@
 
 Principles for us to use. ☀️
 
-[resonantprinciples.com](resonantprinciples.com)
+[resonantprinciples.com](https://resonantprinciples.com)
 
 ## Disclaimers
 
