@@ -1,7 +1,8 @@
 # Resonant Principles
 
-## Principles 1: Radical Transparency
-Exposing my curated principles to the human collective nervous system for us all to use and benefit from. ☀️
+This page is the result of following principles #1: radical transparency.
+
+This page exposes my curated principles to the human collective nervous system (internet) for us all to use and benefit from. ☀️
 
 [resonantprinciples.com](https://resonantprinciples.com)
 
