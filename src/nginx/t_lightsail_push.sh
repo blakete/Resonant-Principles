@@ -1,1 +1,0 @@
-aws lightsail push-container-image --service-name principia-container-service --label nginx-container --image nginx-container

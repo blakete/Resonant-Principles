@@ -1,1 +1,0 @@
-docker exec -it src-app-1 /bin/sh
