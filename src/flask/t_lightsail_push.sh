@@ -1,0 +1,1 @@
+aws lightsail push-container-image --service-name principia-container-service --label flask-container --image flask-container

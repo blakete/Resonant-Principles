@@ -25,3 +25,10 @@ Most of the principles here are NOT original.
 ## References
 
 1. Largely inspired by <https://fs.blog/mental-models/> and [Mahmoud](https://twitter.com/tweetafterwork)
+
+## Technical References
+
+* <https://www.youtube.com/watch?v=6S2brobgmBA&t=2244s>
+* <https://www.youtube.com/watch?v=uokHUbglpwo>
+* <https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-enabling-container-services-custom-domains>
+* <https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-enabling-container-services-custom-domains>
