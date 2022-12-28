@@ -1,6 +1,7 @@
-# Resonant-Principles
+# Resonant Principles
 
-Principles for us to use. ☀️
+## Principles 1: Radical Transparency
+Exposing my curated principles to the human collective nervous system for us all to use and benefit from. ☀️
 
 [resonantprinciples.com](https://resonantprinciples.com)
 
