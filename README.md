@@ -1,6 +1,6 @@
 # Resonant Principles
 
-This page is the result of following <b>Principles #1: Radical Transparency</b>.
+This page is the result of following <b>Principle #1: Radical Transparency</b>.
 
 This page exposes my curated principles to the human collective nervous system (internet) for us all to use and benefit from. ☀️
 
