@@ -3,6 +3,8 @@ import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Principles from "@/views/Principles.vue"
 import CognitiveStructures from "@/views/CognitiveStructures.vue"
+import MentalModels from "@/views/MentalModels.vue"
+import Schemas from "@/views/Schemas.vue"
 import Mindsets from "@/views/Mindsets.vue"
 
 const routes = [
@@ -25,6 +27,16 @@ const routes = [
     path: "/cognitive-structures",
     name: "CognitiveStructures",
     component: CognitiveStructures,
+  },
+  {
+    path: "/cognitive-structures/mental-models",
+    name: "MentalModels",
+    component: MentalModels,
+  },
+  {
+    path: "/cognitive-structures/schemas",
+    name: "Schemas",
+    component: Schemas,
   },
   {
     path: "/mindsets",

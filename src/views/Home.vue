@@ -2,15 +2,16 @@
   <div class="homepage">
     <h1>Home ☀️</h1>
     <ol>
-      <li @click="this.$router.push('principles')">Principles</li>
-
-      <li @click="this.$router.push('cognitive-structures')">Cognitive Structures
-        <ol type="a">
-          <li>Mental Models</li>
-          <li>Schemas</li>
-        </ol>
+      <li @click="this.$router.push('principles')">
+        Principles
       </li>
-      <li @click="this.$router.push('mindsets')">Mindsets</li>
+
+      <li @click="this.$router.push('cognitive-structures')">
+        <span>Cognitive Structures</span>
+      </li>
+      <li @click="this.$router.push('mindsets')">
+        Mindsets
+      </li>
     </ol>
   </div>
 </template>
@@ -31,15 +32,21 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 li {
   font-size: 22px;
   padding-bottom: 10px;
 }
 
 li li {
-  padding-top: 3px;
+  padding-top: 10px;
   padding-bottom: 0px;
-  ;
+  font-size: 20px;
+}
+
+span {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
 }
 </style>
