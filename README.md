@@ -1,7 +1,7 @@
 # Resonant Principles ☀️
 
-[resonantprinciples.com](https://resonantprinciples.com)
-<b>Principle #1: Radical Transparency</b>.
+[resonantprinciples.com](https://resonantprinciples.com)</br>
+<b>Principle #1: Radical Transparency</b></br>
 This page exposes my curated principles to the human collective nervous system for all to use and benefit from. 🙂
 
 ## Technical References
