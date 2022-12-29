@@ -1,0 +1,15 @@
+# STAGE 1: build vuejs app 
+FROM node:16.17.0-bullseye-slim as builder
+RUN npm install -g npm@9.2.0
+RUN mkdir /vue-ui
+WORKDIR /vue-ui
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# STAGE 2: build nginx container with builder files
+FROM nginx:alpine
+COPY ./.nginx/nginx.conf /etc/nginx/nginx.conf
+RUN rm -rf /usr/share/nginx/html/*
+COPY --from=builder /vue-ui/dist /usr/share/nginx/html

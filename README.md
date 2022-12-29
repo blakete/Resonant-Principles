@@ -32,3 +32,29 @@ Most of the principles here are NOT original.
 * <https://www.youtube.com/watch?v=uokHUbglpwo>
 * <https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-enabling-container-services-custom-domains>
 * <https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-enabling-container-services-custom-domains>
+
+
+# resonant-principles-ui
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
