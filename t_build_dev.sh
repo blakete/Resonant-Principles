@@ -1,1 +1,1 @@
-docker build -f Dockerfile.dev -t web-app-dev-containerr .
+docker build -f Dockerfile.dev -t web-app-dev-container .
