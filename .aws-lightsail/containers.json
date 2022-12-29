@@ -1,6 +1,6 @@
 {
     "web": {
-        "image": ":principia-container-service.web-app-prod-container.6",
+        "image": ":principia-container-service.web-app-prod-container.7",
         "command": [],
         "ports": {
             "80": "HTTP"
