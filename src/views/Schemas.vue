@@ -1,5 +1,5 @@
 <template>
-    <div class="schemas">
+    <div class="main-page-content">
         <h1>Schemas 📂</h1>
         <p>
             Schemas represent our understanding and knowledge of a particular concept or category. They are organized
@@ -8,6 +8,10 @@
             patterns and categories.
         </p>
     </div>
+    <section class='comments' aria-labelledby="comment">
+      <h2 id="comment">Comments</h2>
+      <Disqus />
+    </section>
 </template>
 
 <script>

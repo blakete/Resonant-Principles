@@ -1,18 +1,24 @@
 <template>
-  <div class="homepage">
-    <h1>Home ☀️</h1>
-    <ol>
-      <li @click="this.$router.push('principles')">
-        Principles
-      </li>
+  <div>
+    <div class="main-page-content">
+      <h1>Home ☀️</h1>
+      <ol>
+        <li @click="this.$router.push('principles')">
+          Principles
+        </li>
 
-      <li @click="this.$router.push('cognitive-structures')">
-        <span>Cognitive Structures</span>
-      </li>
-      <li @click="this.$router.push('mindsets')">
-        Mindsets
-      </li>
-    </ol>
+        <li @click="this.$router.push('cognitive-structures')">
+          <span>Cognitive Structures</span>
+        </li>
+        <li @click="this.$router.push('mindsets')">
+          Mindsets
+        </li>
+      </ol>
+    </div>
+    <section class='comments' aria-labelledby="comment">
+      <h2 id="comment">Comments</h2>
+      <Disqus />
+    </section>
   </div>
 </template>
 

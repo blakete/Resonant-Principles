@@ -1,5 +1,5 @@
 <template>
-    <div class="cognitive-structures">
+    <div class="main-page-content">
         <h1>Cognitive Structures 🧠</h1>
         <p>Cognitive structures are basic mental patterns used to process information.</p>
         <ol>
@@ -11,6 +11,10 @@
             </li>
         </ol>
     </div>
+    <section class='comments' aria-labelledby="comment">
+      <h2 id="comment">Comments</h2>
+      <Disqus />
+    </section>
 </template>
 
 <script>

@@ -1,9 +1,9 @@
 <template>
   <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
   </div>
-  <router-view />
+  <router-view style="min-height: 100vh;"/>
 </template>
 
 <script>
@@ -31,16 +31,24 @@ export default {
   color: #2c3e50;
   padding: 20px;
 }
+
 p {
   font-size: 20px;
 }
+
 h1 {
   font-size: 32px;
 }
+
 h2 {
   font-size: 26px;
 }
+
 h3 {
   font-size: 22px;
+}
+
+.main-page-content {
+  min-height: 100vh;
 }
 </style>
