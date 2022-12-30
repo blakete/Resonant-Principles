@@ -1,6 +1,12 @@
 <template>
     <div class="about-page">
         <h1>About 🔍</h1>
+        <div class="mermaid" style="max-width: 200px;">
+            graph LR;
+                sense --> perceive;
+                perceive --> decide;
+                decide --> act;
+        </div>
         <p>
             This website contains sets of curated <u>principles</u>, <u>cognitive structures</u>, and <u>mindsets</u>
             that
