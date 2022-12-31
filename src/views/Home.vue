@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="main-page-container">
     <div class="main-page-content">
       <h1>Home ☀️</h1>
-      <section>
+      <section id="tldr-section">
         <h2>TLDR</h2>
         <p>
           Our website aims to help people understand the universe and promote prosperity. We offer a range of
@@ -10,8 +10,7 @@
           resources.
         </p>
       </section>
-
-      <section>
+      <section id="overview-section">
         <h2>Overview</h2>
         <p>
           Welcome, we are striving to provide a valuable resource for those seeking to deepen their
@@ -27,9 +26,8 @@
           resources we offer.
         </p>
       </section>
-
     </div>
-    <section class='comments' aria-labelledby="comment">
+    <section id="comments-sectipn" class='comments' aria-labelledby="comment">
       <h2 id="comment">Comments</h2>
       <Disqus />
     </section>

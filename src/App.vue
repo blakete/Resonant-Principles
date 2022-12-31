@@ -38,3 +38,36 @@ export default {
   }),
 }
 </script>
+
+<style>
+.main-page-container {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.main-page-content {
+  min-height: 100vh;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 22px;
+}
+</style>
