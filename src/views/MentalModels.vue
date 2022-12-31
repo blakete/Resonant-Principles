@@ -1,5 +1,5 @@
 <template>
-    <div class="mental-models">
+    <div class="main-page-content">
         <h1>Mental Models 🤔</h1>
         <p>
             Mental models are mental representations of a person's understanding of a particular concept or system. They
@@ -22,6 +22,10 @@
             <li>Hanlon's Razor</li>
         </ol>
     </div>
+    <section class='comments' aria-labelledby="comment">
+      <h2 id="comment">Comments</h2>
+      <Disqus />
+    </section>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="mindsets">
+    <div class="main-page-content">
         <h1>Mindsets 🧭</h1>
         <p>
             A mindset is a person's attitude or set of beliefs about themselves and the world around them.
@@ -7,6 +7,10 @@
             behaviors and actions.
         </p>
     </div>
+    <section class='comments' aria-labelledby="comment">
+      <h2 id="comment">Comments</h2>
+      <Disqus />
+    </section>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="principles">
+    <div class="main-page-content">
         <h1>Principles 📜</h1>
         <p>
             Principles are general rules or guidelines that are meant to be applied in a wide range of
@@ -11,6 +11,10 @@
             behavior of complex systems.
         </p>
     </div>
+    <section class='comments' aria-labelledby="comment">
+      <h2 id="comment">Comments</h2>
+      <Disqus />
+    </section>
 </template>
 
 <script>
