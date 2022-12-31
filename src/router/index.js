@@ -1,6 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
+import Explore from "@/views/Explore.vue";
+import Blog from "@/views/Blog.vue";
 import Principles from "@/views/Principles.vue"
 import CognitiveStructures from "@/views/CognitiveStructures.vue"
 import MentalModels from "@/views/MentalModels.vue"
@@ -12,6 +14,16 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/explore",
+    name: "Explore",
+    component: Explore,
+  },
+  {
+    path: "/blog",
+    name: "Blog",
+    component: Blog,
   },
   {
     path: "/about",
