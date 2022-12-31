@@ -1,50 +1,29 @@
 <template>
-    <div class="about-page">
-
-        <header>
-            <h1>Blog 🗺</h1>
-            <p>
-                Nascent thoughts and ideas.
-            </p>
-        </header>
-
-        <section id="blog-posts">
-            <h2>Posts</h2>
-            <div class="card-columns">
-                <div v-for="post in posts" :key="post.id">
-                    <v-card>
-                        <v-card-title>{{ post.title }}</v-card-title>
-                        <v-card-subtitle>{{ post.author }}</v-card-subtitle>
-                        <v-card-text>{{ post.content }}</v-card-text>
-                    </v-card>
+    <div class="main-page-container">
+        <div class="main-page-content">
+            <header>
+                <h1 style="padding-bottom: 20px;">Blog 🗺</h1>
+                <p>
+                    Nascent thoughts and ideas.
+                </p>
+            </header>
+            <section id="blog-posts">
+                <h2>Posts</h2>
+                <div class="card-columns">
+                    <div v-for="post in posts" :key="post.id">
+                        <v-card>
+                            <v-card-title>{{ post.title }}</v-card-title>
+                            <v-card-subtitle>{{ post.author }}</v-card-subtitle>
+                            <v-card-text>{{ post.content }}</v-card-text>
+                        </v-card>
+                    </div>
                 </div>
-            </div>
-
-            <!-- <div>
-                <ul>
-                    <li v-show="loading">
-                        <h3>Loading</h3>
-                    </li>
-                    <li v-for="post in posts" :key="`post-${post.id}`">
-                        <h3 v-text="post.title" :id="`title-post-${post.id}`" />
-
-                        <router-link :to="{ name: 'blog', params: { id: post.id } }" :id="`link-post-${post.id}`"
-                            :aria-describedby="`link-post-${post.id} title-post-${post.id}`">
-                            See post
-                        </router-link>
-
-                        -
-
-                        todo add comments count
-                    </li>
-                </ul>
-                <div v-show="error">
-                    {{ error }}
-                </div>
-            </div>  -->
-
+            </section>
+        </div>
+        <section class='comments' aria-labelledby="comment">
+            <h2 id="comment">Comments</h2>
+            <Disqus />
         </section>
-
     </div>
 </template>
   

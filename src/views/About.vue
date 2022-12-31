@@ -1,30 +1,43 @@
 <template>
-    <div class="about-page">
-        <h1>About 🔍</h1>
-        <p>
-            This website contains sets of curated <u>principles</u>, <u>cognitive structures</u>, and <u>mindsets</u>
-            that
-            resonate with <a href="https://www.linkedin.com/in/blakete/">me</a> and
-            have tremendously benefited my work and life. I hope you can find benefit from using them too. 😊
-        </p>
-        <blockquote class="otro-blockquote">
-            I believe in the discipline of mastering the best of what other people have figured out.
-            <span>Charlie Munger</span>
-        </blockquote>
-        <blockquote class="otro-blockquote">
-            If I have seen further [than others], it is by standing on the shoulders of giants.
-            <span>Isaac Newton</span>
-        </blockquote>
-        <h2>Disclaimer</h2>
-        <p>
-            The content of this web page is curated from various sources and is not original content. All credit goes to
-            the original authors and sources. This page is intended for informational purposes only and is not intended
-            to take credit for the original content.
-        </p>
-        <h2>References</h2>
-        <ol>
-            <li><a href="https://a.co/d/9CH7PWH">The Great Mental Models Volume 1: General Thinking Concepts</a></li>
-        </ol>
+    <div class="main-page-container">
+        <div class="main-page-content">
+            <section>
+                <h1 style="padding-bottom: 20px;">About 🔍</h1>
+                <p>
+                    This website contains sets of curated <u>principles</u>, <u>cognitive structures</u>, and
+                    <u>mindsets</u>
+                    that
+                    resonate with <a href="https://www.linkedin.com/in/blakete/">me</a> and
+                    have tremendously benefited my work and life. I hope you can find benefit from using them too.
+                    😊
+                </p>
+                <blockquote class="otro-blockquote">
+                    I believe in the discipline of mastering the best of what other people have figured out.
+                    <span>Charlie Munger</span>
+                </blockquote>
+                <blockquote class="otro-blockquote">
+                    If I have seen further [than others], it is by standing on the shoulders of giants.
+                    <span>Isaac Newton</span>
+                </blockquote>
+                <h2>Disclaimer</h2>
+                <p>
+                    The content of this web page is curated from various sources and is not original content. All
+                    credit goes to
+                    the original authors and sources. This page is intended for informational purposes only and is
+                    not intended
+                    to take credit for the original content.
+                </p>
+                <h2>References</h2>
+                <ol>
+                    <li><a href="https://a.co/d/9CH7PWH">The Great Mental Models Volume 1: General Thinking
+                            Concepts</a></li>
+                </ol>
+            </section>
+        </div>
+        <section class='comments' aria-labelledby="comment">
+            <h2 id="comment">Comments</h2>
+            <Disqus />
+        </section>
     </div>
 </template>
   

@@ -1,21 +1,13 @@
 <template>
-  <v-app>
-    <v-toolbar app>
-      <span class="hidden-sm-and-up">
-        <v-toolbar-side-icon @click="sidebar = !sidebar"> </v-toolbar-side-icon>
-      </span>
-      <v-toolbar-title>
-        <router-link to="/" style="cursor: pointer">
-          {{ appTitle }}
-        </router-link>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-xs-only">
+  <v-app app>
+    <v-toolbar>
+      <v-toolbar-items>
         <v-btn flat v-for="item in menuItems" :key="item.title" :to="item.path">
-          <v-icon left dark>{{ item.icon }}</v-icon>
+          <!-- <v-icon left dark>{{ item.icon }}</v-icon> -->
           {{ item.title }}
         </v-btn>
       </v-toolbar-items>
+      <v-spacer></v-spacer>
     </v-toolbar>
     <v-content>
       <router-view />
@@ -27,7 +19,6 @@
 
 export default {
   name: 'App',
-
   data: () => ({
     menuItems: [
       { title: "Home", path: "/", icon: "home" },
@@ -69,5 +60,9 @@ h2 {
 
 h3 {
   font-size: 22px;
+}
+
+li {
+    list-style-position: inside;
 }
 </style>
