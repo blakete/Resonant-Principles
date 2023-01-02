@@ -1,17 +1,32 @@
 <template>
     <div class="main-page-container">
         <div class="main-page-content">
-            <h1>Principles 📜</h1>
-            <p>
-                Principles are general rules or guidelines that are meant to be applied in a wide range of
-                situations that are often based on fundamental truths or laws.
-            </p>
-            <p>
-                They can be used to guide
-                behavior, decision-making, and problem-solving. They are essential for understanding and predicting the
-                behavior of complex systems.
-            </p>
+            <section>
+                <h1>Principles 📜</h1>
+                <p>
+                    Principles are general rules or guidelines that are meant to be applied in a wide range of
+                    situations that are often based on fundamental truths or laws.
+                </p>
+                <br>
+                <p>
+                    They can be used to guide
+                    behavior, decision-making, and problem-solving. They are essential for understanding and predicting
+                    the
+                    behavior of complex systems.
+                </p>
+            </section>
+            <section>
+                <h2>Table of Contents</h2>
+                <ol>
+                    <li>The Law of Change</li>
+                    <li>The Law of Abundance</li>
+                    <li>The Law of Attraction</li>
+                    <li>The Law of Attachment</li>
+                    <li>Pareto principle (80/20 rule)</li>
+                </ol>
+            </section>
         </div>
+
         <section class='comments' aria-labelledby="comment">
             <h2 id="comment">Comments</h2>
             <Disqus />

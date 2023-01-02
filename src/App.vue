@@ -21,10 +21,9 @@ export default {
   name: 'App',
   data: () => ({
     menuItems: [
-      { title: "Home", path: "/", icon: "home" },
-      { title: "Explore", path: "/explore", icon: "face" },
+      { title: "About", path: "/", icon: "home" },
       { title: "Blog", path: "/blog", icon: "face" },
-      { title: "About", path: "/about", icon: "face" },
+      { title: "Explore", path: "/explore", icon: "face" },
     ],
   }),
 }
@@ -65,6 +64,6 @@ h3 {
 }
 
 li {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 </style>

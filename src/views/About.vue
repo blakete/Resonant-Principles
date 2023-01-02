@@ -4,13 +4,17 @@
             <section>
                 <h1 style="padding-bottom: 20px;">About 🔍</h1>
                 <p>
-                    This website contains sets of curated <u>principles</u>, <u>cognitive structures</u>, and
-                    <u>mindsets</u>
-                    that
-                    resonate with <a href="https://www.linkedin.com/in/blakete/">me</a> and
-                    have tremendously benefited my work and life. I hope you can find benefit from using them too.
-                    😊
+                    Our goal is to equip you with the fundamental concepts, principles, cognitive structures, and mindsets that
+                    are widely applicable and will serve as the building blocks for further learning and growth. 🌱
                 </p>
+                <br>
+                <p>
+                    Whether you are a beginner looking to learn about a new subject or an experienced learner looking to
+                    deepen your understanding, we hope you will find these resources valuable. 📈
+                </p>
+                <br>
+                <p>Please let us know how we may improve via the comments section on the bottom of every page. Thank
+                    you. ❤️</p>
                 <blockquote class="otro-blockquote">
                     I believe in the discipline of mastering the best of what other people have figured out.
                     <span>Charlie Munger</span>
@@ -19,7 +23,7 @@
                     If I have seen further [than others], it is by standing on the shoulders of giants.
                     <span>Isaac Newton</span>
                 </blockquote>
-                <h2>Disclaimer</h2>
+                <h2>Disclaimer ⚠️</h2>
                 <p>
                     The content of this web page is curated from various sources and is not original content. All
                     credit goes to

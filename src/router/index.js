@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import NotFound from "@/views/NotFound.vue";
-import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Explore from "@/views/Explore.vue";
 import Blog from "@/views/Blog.vue";
@@ -9,6 +8,7 @@ import CognitiveStructures from "@/views/CognitiveStructures.vue"
 import MentalModels from "@/views/MentalModels.vue"
 import Schemas from "@/views/Schemas.vue"
 import Mindsets from "@/views/Mindsets.vue"
+import Fundamentals from "@/views/Fundamentals.vue"
 
 const routes = [
   { 
@@ -18,8 +18,8 @@ const routes = [
   },
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "About",
+    component: About,
   },
   {
     path: "/explore",
@@ -30,11 +30,6 @@ const routes = [
     path: "/blog",
     name: "Blog",
     component: Blog,
-  },
-  {
-    path: "/about",
-    name: "About",
-    component: About,
   },
   {
     path: "/principles",
@@ -60,6 +55,11 @@ const routes = [
     path: "/mindsets",
     name: "Mindsets",
     component: Mindsets,
+  },
+  {
+    path: "/fundamentals",
+    name: "Fundamentals",
+    component: Fundamentals,
   },
 ];
 

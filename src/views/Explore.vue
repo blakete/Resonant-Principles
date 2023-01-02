@@ -4,17 +4,17 @@
       <h1 style="padding-bottom: 20px;">Explore <a href="https://en.wikipedia.org/wiki/The_Matrix"
           style="text-decoration: none;">🐇</a></h1>
       <ul>
+        <li @click="this.$router.push('fundamentals')">
+          <span>Fundamentals</span>
+        </li>
+        <li @click="this.$router.push('principles')">
+          <span>Principles</span>
+        </li>
         <li @click="this.$router.push('cognitive-structures')">
           <span>Cognitive Structures</span>
         </li>
-        <li @click="this.$router.push('fundamentals')">
-          Fundamentals
-        </li>
         <li @click="this.$router.push('mindsets')">
-          Mindsets
-        </li>
-        <li @click="this.$router.push('principles')">
-          Principles
+          <span>Mindsets</span>
         </li>
       </ul>
     </div>

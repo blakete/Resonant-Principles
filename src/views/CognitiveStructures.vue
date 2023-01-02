@@ -10,7 +10,7 @@
                     <span>Mental Models</span>
                 </li>
                 <li @click="this.$router.push('cognitive-structures/schemas')">
-                    Schemas
+                    <span>Schemas</span>
                 </li>
             </ol>
         </div>
