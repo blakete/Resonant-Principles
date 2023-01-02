@@ -8,7 +8,7 @@
                 </p>
             </header>
             <section id="blog-posts">
-                <h2>Posts</h2>
+                <h2 style="padding-bottom: 20px;">Posts</h2>
                 <div class="card-columns">
                     <div v-for="post in posts" :key="post.id">
                         <v-card>

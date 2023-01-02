@@ -61,7 +61,6 @@ li {
 .otro-blockquote {
     max-width: 600px;
     font-size: 1.4em;
-    width: 60%;
     margin: 40px 0px;
     font-family: Open Sans;
     font-style: italic;
