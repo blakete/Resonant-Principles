@@ -51,11 +51,13 @@ p {
 
 h1 {
   font-size: 32px;
+  padding-bottom: 20px;
 }
 
 h2 {
   font-size: 26px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {

@@ -1,7 +1,7 @@
 <template>
   <div class="main-page-container">
     <div class="main-page-content">
-      <h1>Home ☀️</h1>
+      <h1 style="padding-bottom: 0px;">Home ☀️</h1>
       <section id="tldr-section">
         <h2>TLDR</h2>
         <p>
