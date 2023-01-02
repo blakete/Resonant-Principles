@@ -1,0 +1,1 @@
+docker exec -t -i web-app-dev /bin/sh
