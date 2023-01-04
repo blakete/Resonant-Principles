@@ -4,6 +4,7 @@ import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Explore from "@/views/Explore.vue";
 import Blog from "@/views/Blog.vue";
+import Fundamentals from "@/views/Fundamentals.vue"
 import Principles from "@/views/Principles.vue"
 import CognitiveStructures from "@/views/CognitiveStructures.vue"
 import MentalModels from "@/views/MentalModels.vue"
@@ -35,6 +36,11 @@ const routes = [
     path: "/about",
     name: "About",
     component: About,
+  },
+  {
+    path: "/fundamentals",
+    name: "Fundamentals",
+    component: Fundamentals,
   },
   {
     path: "/principles",

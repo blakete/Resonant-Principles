@@ -56,6 +56,7 @@ h1 {
 h2 {
   font-size: 26px;
   padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 h3 {
