@@ -7,14 +7,13 @@
                     Nascent thoughts and ideas.
                 </p>
             </header>
+
             <section id="blog-posts">
                 <h2 style="padding-bottom: 20px;">Posts</h2>
                 <div class="card-columns">
-                    <div v-for="post in posts" :key="post.id">
-                        <v-card>
+                    <div v-for="post in posts" :key="post.id">  
+                        <v-card @click="this.$router.push({ path: `/blog/${post.id}`})">
                             <v-card-title>{{ post.title }}</v-card-title>
-                            <v-card-subtitle>{{ post.author }}</v-card-subtitle>
-                            <v-card-text>{{ post.content }}</v-card-text>
                         </v-card>
                     </div>
                 </div>
@@ -26,7 +25,7 @@
         </section>
     </div>
 </template>
-  
+
 <script>
 export default {
     name: 'BlogPage',
@@ -54,7 +53,7 @@ export default {
     }
 }
 </script>
-  
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 li {
@@ -70,4 +69,3 @@ li {
     margin-bottom: 1rem;
 }
 </style>
-  
