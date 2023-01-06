@@ -3,7 +3,6 @@
     <v-toolbar>
       <v-toolbar-items>
         <v-btn flat v-for="item in menuItems" :key="item.title" :to="item.path">
-          <!-- <v-icon left dark>{{ item.icon }}</v-icon> -->
           {{ item.title }}
         </v-btn>
       </v-toolbar-items>
