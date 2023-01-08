@@ -9,6 +9,11 @@
       <v-spacer></v-spacer>
     </v-toolbar>
     <v-content>
+      <div class="topnav">
+        <a v-for="item in menuItems" :key="item.title" :to="item.path" @click="this.$router.push({ name: item.path })">
+          {{ item.title }}
+        </a>
+      </div>
       <router-view />
     </v-content>
   </v-app>
@@ -20,10 +25,10 @@ export default {
   name: 'App',
   data: () => ({
     menuItems: [
-      { title: "Home", path: "/", icon: "home" },
-      { title: "Explore", path: "/explore", icon: "face" },
-      { title: "Blog", path: "/blog", icon: "face" },
-      { title: "About", path: "/about", icon: "face" },
+      { title: "Home", path: "Home", icon: "home" },
+      { title: "Explore", path: "Explore", icon: "face" },
+      { title: "Blog", path: "BlogFeed", icon: "face" },
+      { title: "About", path: "About", icon: "face" },
     ],
   }),
 }
@@ -63,6 +68,30 @@ h3 {
 }
 
 li {
-    list-style-position: inside;
+  list-style-position: inside;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0363f3;
+  color: white;
 }
 </style>
