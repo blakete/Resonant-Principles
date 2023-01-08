@@ -1,13 +1,5 @@
 <template>
   <v-app app>
-    <v-toolbar>
-      <v-toolbar-items>
-        <v-btn flat v-for="item in menuItems" :key="item.title" :to="item.path">
-          {{ item.title }}
-        </v-btn>
-      </v-toolbar-items>
-      <v-spacer></v-spacer>
-    </v-toolbar>
     <v-content>
       <div class="topnav">
         <a v-for="item in menuItems" :key="item.title" :to="item.path" @click="this.$router.push({ name: item.path })">
