@@ -15,9 +15,8 @@ export default {
   name: 'App',
   data: () => ({
     menuItems: [
-      { title: "Home", path: "Home", icon: "home" },
-      { title: "Explore", path: "Explore", icon: "face" },
       { title: "Blog", path: "BlogFeed", icon: "face" },
+      { title: "Explore", path: "Explore", icon: "face" },
       { title: "About", path: "About", icon: "face" },
     ],
   }),

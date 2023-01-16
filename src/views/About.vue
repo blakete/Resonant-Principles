@@ -4,12 +4,8 @@
             <section>
                 <h1 style="padding-bottom: 20px;">About 🔍</h1>
                 <p>
-                    This website contains sets of curated <u>principles</u>, <u>cognitive structures</u>, and
-                    <u>mindsets</u>
-                    that
-                    resonate with <a href="https://www.linkedin.com/in/blakete/">me</a> and
-                    have tremendously benefited my work and life. I hope you can find benefit from using them too.
-                    😊
+                    This website contains ideas that have tremendously benefited my life and work. I hope
+                    they resonante with you too. 😊
                 </p>
                 <blockquote class="otro-blockquote">
                     I believe in the discipline of mastering the best of what other people have figured out.
@@ -27,11 +23,12 @@
                     not intended
                     to take credit for the original content.
                 </p>
-                <h2>References</h2>
-                <ol>
-                    <li><a href="https://a.co/d/9CH7PWH">The Great Mental Models Volume 1: General Thinking
-                            Concepts</a></li>
-                </ol>
+                <h2>Maintainer</h2>
+                <p>
+                    <a href="https://www.linkedin.com/in/blakete/">Blake Edwards</a> created and maintains this website.
+                    The source code for it can be found <a
+                        href="https://github.com/blakete/Resonant-Principles">here</a>.
+                </p>
             </section>
         </div>
         <section class='comments' aria-labelledby="comment">
@@ -40,7 +37,7 @@
         </section>
     </div>
 </template>
-  
+
 <script>
 export default {
     name: 'AboutPage',
@@ -48,7 +45,7 @@ export default {
     }
 }
 </script>
-  
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 li {
@@ -94,4 +91,3 @@ li {
     margin-top: 1em;
 }
 </style>
-  
