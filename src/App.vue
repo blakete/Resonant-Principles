@@ -1,14 +1,12 @@
 <template>
-  <v-app app>
-    <v-content>
-      <div class="topnav">
-        <a v-for="item in menuItems" :key="item.title" :to="item.path" @click="this.$router.push({ name: item.path })">
-          {{ item.title }}
-        </a>
-      </div>
-      <router-view />
-    </v-content>
-  </v-app>
+  <div id="app">
+    <div class="topnav">
+      <a v-for="item in menuItems" :key="item.title" :to="item.path" @click="this.$router.push({ name: item.path })">
+        {{ item.title }}
+      </a>
+    </div>
+    <router-view />
+  </div>
 </template>
 
 <script>

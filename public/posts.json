@@ -1,14 +1,20 @@
 [
   {
     "id": 0,
-    "title": "Lasting Structures",
-    "last_updated": "Jan 5, 2022",
-    "content": "<ol><li>Solid foundations</li><li>Test, test, test</li><ol><li>Scientific method</li></ol><li>Use proven technologies and techniques</li><ol><li>Scientific method was applied</li></ol><li>Make it flexible</li><ol><li>examples: environment is apart of the design,&nbsp;</li><li>can stretch to new requirements</li><li>bridge</li></ol><li>Maintenance</li><ol><li>keep technical debt low</li></ol><li>Stay up to date</li><ol><li>Avoid your structure becoming obsolete, plan ahead</li><li>No need for your structure</li></ol></ol>"
+    "title": "Problem Solving Toolkit 🛠️",
+    "last_updated": "Jan 15, 2023",
+    "content": "<p>This page is designed to help you solve problems more effectively.</p> <h2>The Five Steps of Problem Solving</h2> <ol> <li>Identify and comprehend of the problem</li> <li>Generate potential solutions</li> <li>Evaluate and select the best solution</li> <li>Implement the solution</li> <li>Reflect, monitor, and adjust the solution</li> </ol> <h2>Strategies</h2> <p>Strategies are the overall approaches and plan of action used to address a problem.</p> <ul> <li>Root cause analysis</li> <li>SWOT analysis</li> <li>Brainstorming</li> </ul> <h2>Methods</h2> <p>Methods are a specific approach or technique used to solve a problem.</p> <ul> <li>Scientific method</li> <li>Design thinking</li> <li>Six Sigma</li> </ul> <h2>Tactics</h2> <p>Tactics are specific actions or steps that are taken as part of the strategy or method. They are the specific, concrete implementation of a strategy or method.</p> <ul> <li>Mind mapping</li> <li>Time management</li> <li>Delegation</li> </ul> <h2>Tools</h2> <p>Tools are resources or instruments that are used to support the implementation of a strategy, method, or tactic.</p> <ul> <li>Flow chart</li> <li>Gantt chart</li> <li>Pareto analysis</li> </ul> <h2>References</h2> <ol> <li> <a href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/GPT-3&amp;sa=D&amp;source=editors&amp;ust=1673830079027567&amp;usg=AOvVaw0qGtLwEKzi5_8wamhkq1_a\">OpenAI’s GPT-3</a> </li> <li> <a href=\"https://www.google.com/url?q=https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eSickafusMemorial/eSickafus-TextBooks-Tutorials/HSTPBook-041111.pdf&amp;sa=D&amp;source=editors&amp;ust=1673830079028304&amp;usg=AOvVaw0S7im08Mh_a3FTYgZW14_E\">https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eSickafusMemorial/eSickafus-TextBooks-Tutorials/HSTPBook-041111.pdf</a>&nbsp; </li> </ol>"
   },
   {
     "id": 1,
+    "title": "Lasting Structures",
+    "last_updated": "Jan 5, 2023",
+    "content": "coming soon"
+  },
+  {
+    "id": 2,
     "title": "Continuous Improvement",
-    "last_updated": "Jan 5, 2022",
+    "last_updated": "Jan 5, 2023",
     "content": "coming soon"
   }
 ]
