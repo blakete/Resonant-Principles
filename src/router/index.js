@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import NotFound from "@/views/NotFound.vue";
-import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Explore from "@/views/Explore.vue";
 import BlogFeed from "@/views/BlogFeed.vue";
@@ -20,16 +19,6 @@ const routes = [
   },
   {
     path: "/",
-    name: "Home",
-    component: Home,
-  },
-  {
-    path: "/explore",
-    name: "Explore",
-    component: Explore,
-  },
-  {
-    path: "/blog",
     name: "BlogFeed",
     component: BlogFeed,
   },
@@ -38,6 +27,11 @@ const routes = [
     name: "BlogPost",
     component: BlogPost,
     props: true
+  },
+  {
+    path: "/explore",
+    name: "Explore",
+    component: Explore,
   },
   {
     path: "/about",

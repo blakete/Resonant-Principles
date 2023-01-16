@@ -4,7 +4,7 @@
             <header>
                 <h1 style="padding-bottom: 20px;">Blog 🗺</h1>
                 <p>
-                    Nascent thoughts and ideas.
+                    Forever incomplete thoughts and ideas.
                 </p>
             </header>
 
