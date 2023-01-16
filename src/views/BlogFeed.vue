@@ -7,26 +7,21 @@
                     Nascent thoughts and ideas.
                 </p>
             </header>
+
             <section id="blog-posts">
                 <h2 style="padding-bottom: 20px;">Posts</h2>
                 <div class="card-columns">
                     <div v-for="post in posts" :key="post.id">
-                        <v-card>
-                            <v-card-title>{{ post.title }}</v-card-title>
-                            <v-card-subtitle>{{ post.author }}</v-card-subtitle>
-                            <v-card-text>{{ post.content }}</v-card-text>
-                        </v-card>
+                        <div class="card" @click="this.$router.push({ path: `/blog/${post.id}` })">
+                            <h3>{{ post.title }}</h3>
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
-        <section class='comments' aria-labelledby="comment">
-            <h2 id="comment">Comments</h2>
-            <Disqus />
-        </section>
     </div>
 </template>
-  
+
 <script>
 export default {
     name: 'BlogPage',
@@ -54,20 +49,24 @@ export default {
     }
 }
 </script>
-  
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 li {
     font-size: 20px;
 }
 
-.card-columns {
-    display: flex;
-    flex-direction: column;
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.card-columns .v-card {
-    margin-bottom: 1rem;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 </style>
-  

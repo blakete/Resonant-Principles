@@ -3,7 +3,8 @@ import NotFound from "@/views/NotFound.vue";
 import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Explore from "@/views/Explore.vue";
-import Blog from "@/views/Blog.vue";
+import BlogFeed from "@/views/BlogFeed.vue";
+import BlogPost from "@/views/BlogPost.vue";
 import Fundamentals from "@/views/Fundamentals.vue"
 import Principles from "@/views/Principles.vue"
 import CognitiveStructures from "@/views/CognitiveStructures.vue"
@@ -29,8 +30,14 @@ const routes = [
   },
   {
     path: "/blog",
-    name: "Blog",
-    component: Blog,
+    name: "BlogFeed",
+    component: BlogFeed,
+  },
+  {
+    path: "/blog/:id",
+    name: "BlogPost",
+    component: BlogPost,
+    props: true
   },
   {
     path: "/about",
