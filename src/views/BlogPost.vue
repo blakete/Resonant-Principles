@@ -1,9 +1,11 @@
 <template>
     <div class="main-page-container" v-if="!loading">
         <div class="main-page-content">
-            <h1 style="padding-bottom: 20px;">{{ this.posts[this.$route.params.id].title }}</h1>
-            <div class="blog-post-content" v-html="this.posts[this.$route.params.id].content">
-            </div>
+            <header>
+                <h1 style="padding-bottom: 20px;">{{ this.posts[this.$route.params.id].title }}</h1>
+            </header>
+            <section id="blog-post" v-html="this.posts[this.$route.params.id].content">
+            </section>
         </div>
         <section class='comments' aria-labelledby="comment">
             <h2 id="comment">Comments</h2>
@@ -20,7 +22,6 @@ export default {
         loading: true,
         posts: [],
         error: null,
-        baseURL: 'http://localhost:8080'
     }),
     created() {
         this.loadPosts()
@@ -38,14 +39,10 @@ export default {
                 this.error = e
             }
         },
-    },
-    mounted() {
-        console.log("Hello blog id: " + this.$route.params.id)
     }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 li {
     font-size: 22px;
@@ -62,5 +59,13 @@ span {
     cursor: pointer;
     color: blue;
     text-decoration: underline;
+}
+
+ol {
+    padding-left: 10px;
+}
+
+ul {
+    padding-left: 10px;
 }
 </style>
