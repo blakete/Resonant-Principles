@@ -5,7 +5,7 @@
                 <h1 style="padding-bottom: 20px;">About 🔍</h1>
                 <p>
                     This website contains ideas that have tremendously benefited my life and work. I hope
-                    they resonante with you too. 😊
+                    they resonate with you too. 😊
                 </p>
                 <blockquote class="otro-blockquote">
                     I believe in the discipline of mastering the best of what other people have figured out.
