@@ -38,6 +38,10 @@ export default {
   min-height: 100vh;
 }
 
+ol {
+  padding-left: 10px;
+}
+
 p {
   font-size: 20px;
 }
