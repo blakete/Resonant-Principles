@@ -1,1 +1,1 @@
-docker build -f Dockerfile.dev -t web-app-dev-container .
+docker build -f Dockerfile.dev --network host -t web-app-dev-container .
