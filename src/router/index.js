@@ -1,15 +1,20 @@
 import { createWebHistory, createRouter } from "vue-router";
 import NotFound from "@/views/NotFound.vue";
 import About from "@/views/About.vue";
-import Explore from "@/views/Explore.vue";
+import Explore from "@/views/explore/Explore.vue";
 import BlogFeed from "@/views/BlogFeed.vue";
 import BlogPost from "@/views/BlogPost.vue";
-import Fundamentals from "@/views/Fundamentals.vue"
-import Principles from "@/views/Principles.vue"
-import CognitiveStructures from "@/views/CognitiveStructures.vue"
-import MentalModels from "@/views/MentalModels.vue"
-import Schemas from "@/views/Schemas.vue"
-import Mindsets from "@/views/Mindsets.vue"
+
+import Fundamentals from "@/views/explore/fundamentals/Fundamentals.vue"
+
+import Principles from "@/views/explore/principles/Principles.vue"
+import Influence from "@/views/explore/principles/influence/Influence.vue"
+
+import CognitiveStructures from "@/views/explore/cognitive-structures/CognitiveStructures.vue"
+import MentalModels from "@/views/explore/cognitive-structures/MentalModels.vue"
+import Schemas from "@/views/explore/cognitive-structures/Schemas.vue"
+
+import Mindsets from "@/views/explore/mindsets/Mindsets.vue"
 
 const routes = [
   { 
@@ -39,32 +44,37 @@ const routes = [
     component: About,
   },
   {
-    path: "/fundamentals",
+    path: "/explore/fundamentals",
     name: "Fundamentals",
     component: Fundamentals,
   },
   {
-    path: "/principles",
+    path: "/explore/principles",
     name: "Principles",
     component: Principles,
   },
   {
-    path: "/cognitive-structures",
+    path: "/explore/principles/influence",
+    name: "Influence",
+    component: Influence,
+  },
+  {
+    path: "/explore/cognitive-structures",
     name: "CognitiveStructures",
     component: CognitiveStructures,
   },
   {
-    path: "/cognitive-structures/mental-models",
+    path: "/explore/cognitive-structures/mental-models",
     name: "MentalModels",
     component: MentalModels,
   },
   {
-    path: "/cognitive-structures/schemas",
+    path: "/explore/cognitive-structures/schemas",
     name: "Schemas",
     component: Schemas,
   },
   {
-    path: "/mindsets",
+    path: "/explore/mindsets",
     name: "Mindsets",
     component: Mindsets,
   },
