@@ -2,9 +2,9 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <header>
-                <h1 style="padding-bottom: 20px;">Blog 🗺</h1>
+                <h1 style="padding-bottom: 20px;">Blog 🚀 </h1>
                 <p>
-                    Forever incomplete thoughts and ideas.
+                    Incomplete thoughts and ideas iterating towards the truth.
                 </p>
             </header>
 

@@ -1,13 +1,13 @@
 <template>
     <div class="main-page-container">
         <div class="main-page-content">
-            <h1>Fundamentals 🔠</h1>
+            <h1>Cognition 🧠</h1>
             <ol>
-                <li @click="this.$router.push({ name: 'Cognition' })">
-                    <span>Cognition</span>
+                <li @click="this.$router.push({ name: 'CognitiveBiases' })">
+                    <span>Cognitive Biases</span>
                 </li>
-                <li @click="this.$router.push({ name: 'Computation' })">
-                    <span>Computation</span>
+                <li @click="this.$router.push({ name: 'CognitiveStructures' })">
+                    <span>Cognitive Structures</span>
                 </li>
             </ol>
         </div>
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-    name: 'PrinciplesPage',
+    name: 'CognitionPage',
     props: {}
 }
 </script>

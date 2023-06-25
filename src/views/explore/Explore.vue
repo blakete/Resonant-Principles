@@ -9,12 +9,6 @@
         <li @click="this.$router.push({ name: 'Principles' })">
           <span>Principles</span>
         </li>
-        <li @click="this.$router.push({ name: 'CognitiveStructures' })">
-          <span>Cognitive Structures</span>
-        </li>
-        <li @click="this.$router.push({ name: 'Mindsets' })">
-          <span>Mindsets</span>
-        </li>
       </ol>
     </div>
     <section class='comments' aria-labelledby="comment">

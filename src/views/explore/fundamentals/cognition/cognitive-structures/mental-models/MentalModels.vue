@@ -1,7 +1,7 @@
 <template>
     <div class="main-page-container">
         <div class="main-page-content">
-            <h1>Mental Models 🤔</h1>
+            <h1>Mental Models 🗺️</h1>
             <p>
                 Mental models are mental representations of a person's understanding of a particular concept or system.
                 They
