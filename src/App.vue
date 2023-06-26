@@ -5,11 +5,21 @@
         {{ item.title }}
       </a>
     </div>
+    <div>
+      <v-breadcrumbs :items="visibleBreadcrumbItems">
+        <template v-slot:prepend>
+          <v-icon size="small" icon="mdi-vuetify"></v-icon>
+        </template>
+      </v-breadcrumbs>
+    </div>
+
     <router-view />
   </div>
 </template>
 
 <script>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 
 export default {
   name: 'App',
@@ -18,8 +28,43 @@ export default {
       { title: "Blog", path: "BlogFeed", icon: "face" },
       { title: "Explore", path: "Explore", icon: "face" },
       { title: "About", path: "About", icon: "face" },
-    ],
+    ]
   }),
+  setup() {
+    const route = useRoute()
+    const maxVisibleItems = 3
+
+    const breadcrumbItems = computed(() => {
+      const paths = route.path.split('/').filter(path => path)
+
+      return paths.map((path, index) => {
+        return {
+          title: path,
+          disabled: index === paths.length - 1,
+          href: '/' + paths.slice(0, index + 1).join('/')
+        }
+      })
+    })
+
+    const visibleBreadcrumbItems = computed(() => {
+      const items = breadcrumbItems.value
+
+      if (items.length > maxVisibleItems) {
+        return [
+          ...items.slice(0, 1),
+          {
+            title: '...',
+            disabled: true
+          },
+          ...items.slice(items.length - maxVisibleItems + 1)
+        ]
+      } else {
+        return items
+      }
+    })
+
+    return { visibleBreadcrumbItems }
+  }
 }
 </script>
 

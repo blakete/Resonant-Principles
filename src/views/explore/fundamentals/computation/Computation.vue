@@ -15,6 +15,9 @@
                 <li @click="this.$router.push({ name: 'DataStructures' })">
                     <span>Data Structures</span>
                 </li>
+                <li @click="this.$router.push({ name: 'SoftwareEngineering' })">
+                    <span>Software Engineering</span>
+                </li>
             </ol>
         </div>
         <section class='comments' aria-labelledby="comment">

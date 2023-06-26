@@ -20,6 +20,11 @@ import Computation from "@/views/explore/fundamentals/computation/Computation.vu
 import ComplexityTheory from "@/views/explore/fundamentals/computation/complexity-theory/ComplexityTheory.vue"
 import Algorithms from "@/views/explore/fundamentals/computation/algorithms/Algorithms.vue"
 import DataStructures from "@/views/explore/fundamentals/computation/data-structures/DataStructures.vue"
+import SoftwareEngineering from "@/views/explore/fundamentals/computation/software-engineering/SoftwareEngineering.vue"
+import SoftwareDesignPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/SoftwareDesignPatterns.vue"
+import CreationalPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/CreationalPatterns.vue"
+import StructuralPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/StructuralPatterns.vue"
+import BehavioralPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/BehavioralPatterns.vue"
 
 // import Mindsets from "@/views/explore/mindsets/Mindsets.vue"
 
@@ -104,6 +109,31 @@ const routes = [
     path: "/explore/fundamentals/computation/data-structures",
     name: "DataStructures",
     component: DataStructures,
+  },
+  {
+    path: "/explore/fundamentals/computation/software-engineering",
+    name: "SoftwareEngineering",
+    component: SoftwareEngineering,
+  },
+  {
+    path: "/explore/fundamentals/computation/software-engineering/design-patterns",
+    name: "SoftwareDesignPatterns",
+    component: SoftwareDesignPatterns,
+  },
+  {
+    path: "/explore/fundamentals/computation/software-engineering/design-patterns/creational",
+    name: "CreationalPatterns",
+    component: CreationalPatterns,
+  },
+  {
+    path: "/explore/fundamentals/computation/software-engineering/design-patterns/structural",
+    name: "StructuralPatterns",
+    component: StructuralPatterns,
+  },
+  {
+    path: "/explore/fundamentals/computation/software-engineering/design-patterns/behavioral",
+    name: "BehavioralPatterns",
+    component: BehavioralPatterns,
   },
 
 
