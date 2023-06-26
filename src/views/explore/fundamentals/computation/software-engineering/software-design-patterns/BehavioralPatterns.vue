@@ -2,7 +2,9 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Behavioral Patterns 💬</h1>
-            <p></p>
+            <p>
+                Handle the communication and responsibilities between different objects.
+            </p>
         </div>
         <section class='comments' aria-labelledby="comment">
             <h2 id="comment">Comments</h2>
