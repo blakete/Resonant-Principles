@@ -3,6 +3,7 @@
         <div class="main-page-content">
             <h1>Cognitive Structures 🕸️</h1>
             <p>Cognitive structures are basic mental patterns used to process information.</p>
+            <br>
             <ol>
                 <li @click="this.$router.push({ name: 'MentalModels' })">
                     <span>Mental Models</span>

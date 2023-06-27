@@ -6,6 +6,7 @@
                 Cognitive biases refer to systematic errors in thinking that affect the decisions and judgments that people
                 make.
             </p>
+            <br>
             <ol>
                 <li>
                     Confirmation Bias: the tendency to add more weight to information that confirms our existing beliefs,
