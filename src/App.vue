@@ -87,6 +87,10 @@ ol {
   padding-left: 10px;
 }
 
+ol ol {
+  padding-left: 30px;
+}
+
 p {
   font-size: 20px;
 }
