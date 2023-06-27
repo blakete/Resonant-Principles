@@ -2,6 +2,7 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Computation 💻</h1>
+            <br>
             <ol>
                 <li>
                     Models of Computation

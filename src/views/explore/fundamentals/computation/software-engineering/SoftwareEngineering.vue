@@ -2,9 +2,13 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Software Engineering 🛠️</h1>
+            <br>
             <ol>
                 <li @click="this.$router.push({ name: 'SoftwareDesignPatterns' })">
                     <span>Software Design Patterns</span>
+                </li>
+                <li @click="this.$router.push({ name: 'SoftwareArchitecture' })">
+                    <span>Software Architecture</span>
                 </li>
             </ol>
         </div>

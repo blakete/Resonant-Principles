@@ -25,6 +25,7 @@ import SoftwareDesignPatterns from "@/views/explore/fundamentals/computation/sof
 import CreationalPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/CreationalPatterns.vue"
 import StructuralPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/StructuralPatterns.vue"
 import BehavioralPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/BehavioralPatterns.vue"
+import SoftwareArchitecture from "@/views/explore/fundamentals/computation/software-engineering/software-architecture/SoftwareArchitecture.vue"
 
 // import Mindsets from "@/views/explore/mindsets/Mindsets.vue"
 
@@ -135,7 +136,11 @@ const routes = [
     name: "BehavioralPatterns",
     component: BehavioralPatterns,
   },
-
+  {
+    path: "/explore/fundamentals/computation/software-engineering/software-architecture",
+    name: "SoftwareArchitecture",
+    component: SoftwareArchitecture
+  },
 
   {
     path: "/explore/principles",
