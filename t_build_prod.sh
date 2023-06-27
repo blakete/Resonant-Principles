@@ -1,1 +1,1 @@
-docker build -f Dockerfile.prod -t web-app-prod-container .
+docker build --network=host -f Dockerfile.prod -t web-app-prod-container .
