@@ -12,7 +12,7 @@
                 <h2 style="padding-bottom: 20px;">Posts</h2>
                 <div class="card-columns">
                     <div v-for="post in posts" :key="post.id">
-                        <div class="card" @click="this.$router.push({ path: `/blog/${post.id}` })">
+                        <div class="card no-select" @click="this.$router.push({ path: `/blog/${post.id}` })">
                             <h3>{{ post.title }}</h3>
                         </div>
                     </div>

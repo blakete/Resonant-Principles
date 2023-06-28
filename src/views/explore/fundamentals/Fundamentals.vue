@@ -2,6 +2,7 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Fundamentals 🔠</h1>
+            <br>
             <ol>
                 <li @click="this.$router.push({ name: 'Cognition' })">
                     <span>Cognition</span>

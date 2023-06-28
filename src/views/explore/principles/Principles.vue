@@ -2,6 +2,7 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Principles 📜</h1>
+            <br>
             <ol>
                 <li @click="this.$router.push({ name: 'Influence' })">
                     <span>Principles of Influence</span>

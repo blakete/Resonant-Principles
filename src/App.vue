@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="topnav">
+    <div class="topnav no-select">
       <a v-for="item in menuItems" :key="item.title" :to="item.path" @click="this.$router.push({ name: item.path })">
         {{ item.title }}
       </a>
@@ -135,5 +135,10 @@ li {
 .topnav a.active {
   background-color: #0363f3;
   color: white;
+}
+
+.no-select {
+    user-select: none;
+    cursor: pointer;
 }
 </style>
