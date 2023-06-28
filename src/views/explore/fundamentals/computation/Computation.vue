@@ -4,8 +4,8 @@
             <h1>Computation 💻</h1>
             <br>
             <ol>
-                <li>
-                    Models of Computation
+                <li @click="this.$router.push({ name: 'ModelsOfComputation' })">
+                    <span>Models of Computation</span>
                 </li>
                 <li @click="this.$router.push({ name: 'ComplexityTheory' })">
                     <span>Complexity Theory</span>

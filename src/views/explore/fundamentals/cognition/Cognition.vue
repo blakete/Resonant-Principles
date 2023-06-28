@@ -2,6 +2,7 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Cognition 🧠</h1>
+            <br>
             <ol>
                 <li @click="this.$router.push({ name: 'CognitiveBiases' })">
                     <span>Cognitive Biases</span>

@@ -17,6 +17,7 @@ import MentalModels from "@/views/explore/fundamentals/cognition/cognitive-struc
 import Schemas from "@/views/explore/fundamentals/cognition/cognitive-structures/Schemas.vue"
 
 import Computation from "@/views/explore/fundamentals/computation/Computation.vue"
+import ModelsOfComputation from "@/views/explore/fundamentals/computation/models-of-computation/ModelsOfComputation.vue"
 import ComplexityTheory from "@/views/explore/fundamentals/computation/complexity-theory/ComplexityTheory.vue"
 import Algorithms from "@/views/explore/fundamentals/computation/algorithms/Algorithms.vue"
 import DataStructures from "@/views/explore/fundamentals/computation/data-structures/DataStructures.vue"
@@ -95,6 +96,11 @@ const routes = [
     path: "/explore/fundamentals/computation",
     name: "Computation",
     component: Computation,
+  },
+  {
+    path: "/explore/fundamentals/computation/models-of-computation",
+    name: "ModelsOfComputation",
+    component: ModelsOfComputation,
   },
   {
     path: "/explore/fundamentals/computation/complexity-theory",

@@ -2,6 +2,7 @@
     <div class="main-page-container">
         <div class="main-page-content">
             <h1>Principles of Influence ⚖️</h1>
+            <br>
             <ol>
                 <li>
                     Scarcity: Fear of loss or the fear of loss of opportunity is the most motivating factor in human psychology. Scarcity is more powerful than urgency.
