@@ -8,8 +8,11 @@
                 <li @click="this.$router.push({ name: 'MentalModels' })">
                     <span>Mental Models</span>
                 </li>
-                <li @click="this.$router.push({ name: 'Schemas' })">
-                    Schemas
+                <li @click="this.$router.push({ name: 'CognitiveSchemas' })">
+                    <span>Schemas</span>
+                </li>
+                <li @click="this.$router.push({ name: 'CognitiveScripts' })">
+                    <span>Scripts</span>
                 </li>
             </ol>
         </div>

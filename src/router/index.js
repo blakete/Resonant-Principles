@@ -11,6 +11,11 @@ import Principles from "@/views/explore/principles/Principles.vue"
 import Influence from "@/views/explore/principles/influence/Influence.vue"
 
 import Cognition from "@/views/explore/fundamentals/cognition/Cognition.vue"
+import CognitiveProcesses from "@/views/explore/fundamentals/cognition/congitive-processes/CognitiveProcesses.vue"
+import Thinking from "@/views/explore/fundamentals/cognition/congitive-processes/thinking/Thinking.vue"
+import DecisionMaking from "@/views/explore/fundamentals/cognition/congitive-processes/thinking/DecisionMaking.vue"
+
+import CognitiveScripts from "@/views/explore/fundamentals/cognition/cognitive-structures/CognitiveScripts.vue"
 import CognitiveBiases from "@/views/explore/fundamentals/cognition/cognitive-biases/CognitiveBiases.vue"
 import CognitiveStructures from "@/views/explore/fundamentals/cognition/cognitive-structures/CognitiveStructures.vue"
 import MentalModels from "@/views/explore/fundamentals/cognition/cognitive-structures/mental-models/MentalModels.vue"
@@ -67,31 +72,56 @@ const routes = [
     name: "Fundamentals",
     component: Fundamentals,
   },
+
   {
     path: "/explore/fundamentals/cognition",
     name: "Cognition",
     component: Cognition,
   },
   {
-    path: "/explore/fundamentals/cognition/biases",
-    name: "CognitiveBiases",
-    component: CognitiveBiases,
+    path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-processes",
+    name: "CognitiveProcesses",
+    component: CognitiveProcesses,
   },
   {
-    path: "/explore/fundamentals/cognition/structures",
+    path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-processes/thinking",
+    name: "Thinking",
+    component: Thinking,
+  },
+  {
+    path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-processes/thinking/decision-making",
+    name: "DecisionMaking",
+    component: DecisionMaking,
+  },
+  {
+    path: "/explore/fundamentals/cognition/cognitive-structures",
     name: "CognitiveStructures",
     component: CognitiveStructures,
   },
+
   {
-    path: "/explore/fundamentals/cognition/structures/mental-models",
+    path: "/explore/fundamentals/cognition/cognitive-structures/mental-models",
     name: "MentalModels",
     component: MentalModels,
   },
   {
-    path: "/explore/fundamentals/cognition/structures/schemas",
-    name: "Schemas",
+    path: "/explore/fundamentals/cognition/cognitive-structures/schemas",
+    name: "CognitiveSchemas",
     component: Schemas,
   },
+  {
+    path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-scripts",
+    name: "CognitiveScripts",
+    component: CognitiveScripts,
+  },
+
+  {
+    path: "/explore/fundamentals/cognition/biases",
+    name: "CognitiveBiases",
+    component: CognitiveBiases,
+  },
+
+
   {
     path: "/explore/fundamentals/computation",
     name: "Computation",

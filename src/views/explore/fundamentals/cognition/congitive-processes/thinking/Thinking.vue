@@ -1,20 +1,17 @@
 <template>
     <div class="main-page-container">
         <div class="main-page-content">
-            <h1>Cognition 🧠</h1>
+            <h1>Thinking Processes 🤔</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'CognitiveProcesses' })">
-                    <span>Cognitive Processes</span>
-                </li>
-                <li @click="this.$router.push({ name: 'CognitiveStructures' })">
-                    <span>Cognitive Structures</span>
+                <li @click="this.$router.push({ name: 'DecisionMaking' })">
+                    <span>Decision Making</span>
                 </li>
                 <li>
-                    Cognitive Styles
+                    Reasoning
                 </li>
                 <li>
-                    Cognitive Development
+                    Problem Solving
                 </li>
             </ol>
         </div>
@@ -27,7 +24,7 @@
 
 <script>
 export default {
-    name: 'CognitionPage',
+    name: 'CognitiveThinkingPage',
     props: {}
 }
 </script>
