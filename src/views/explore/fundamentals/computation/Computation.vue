@@ -16,6 +16,9 @@
                 <li @click="this.$router.push({ name: 'DataStructures' })">
                     <span>Data Structures</span>
                 </li>
+                <li @click="this.$router.push({ name: 'DataEngineering' })">
+                    <span>Data Engineering</span>
+                </li>
                 <li @click="this.$router.push({ name: 'SoftwareEngineering' })">
                     <span>Software Engineering</span>
                 </li>

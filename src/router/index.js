@@ -11,9 +11,9 @@ import Principles from "@/views/explore/principles/Principles.vue"
 import Influence from "@/views/explore/principles/influence/Influence.vue"
 
 import Cognition from "@/views/explore/fundamentals/cognition/Cognition.vue"
-import CognitiveProcesses from "@/views/explore/fundamentals/cognition/congitive-processes/CognitiveProcesses.vue"
-import Thinking from "@/views/explore/fundamentals/cognition/congitive-processes/thinking/Thinking.vue"
-import DecisionMaking from "@/views/explore/fundamentals/cognition/congitive-processes/thinking/DecisionMaking.vue"
+import CognitiveProcesses from "@/views/explore/fundamentals/cognition/cognitive-processes/CognitiveProcesses.vue"
+import Thinking from "@/views/explore/fundamentals/cognition/cognitive-processes/thinking/Thinking.vue"
+import DecisionMaking from "@/views/explore/fundamentals/cognition/cognitive-processes/thinking/DecisionMaking.vue"
 
 import CognitiveScripts from "@/views/explore/fundamentals/cognition/cognitive-structures/CognitiveScripts.vue"
 import CognitiveBiases from "@/views/explore/fundamentals/cognition/cognitive-biases/CognitiveBiases.vue"
@@ -26,6 +26,7 @@ import ModelsOfComputation from "@/views/explore/fundamentals/computation/models
 import ComplexityTheory from "@/views/explore/fundamentals/computation/complexity-theory/ComplexityTheory.vue"
 import Algorithms from "@/views/explore/fundamentals/computation/algorithms/Algorithms.vue"
 import DataStructures from "@/views/explore/fundamentals/computation/data-structures/DataStructures.vue"
+import DataEngineering from "@/views/explore/fundamentals/computation/data-engineering/DataEngineering.vue"
 import SoftwareEngineering from "@/views/explore/fundamentals/computation/software-engineering/SoftwareEngineering.vue"
 import SoftwareDesignPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/SoftwareDesignPatterns.vue"
 import CreationalPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/CreationalPatterns.vue"
@@ -146,6 +147,11 @@ const routes = [
     path: "/explore/fundamentals/computation/data-structures",
     name: "DataStructures",
     component: DataStructures,
+  },
+  {
+    path: "/explore/fundamentals/computation/data-engineering",
+    name: "DataEngineering",
+    component: DataEngineering,
   },
   {
     path: "/explore/fundamentals/computation/software-engineering",
