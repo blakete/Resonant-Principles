@@ -50,6 +50,11 @@ const routes = [
     component: BlogFeed,
   },
   {
+    path: "/blog",
+    name: "BlogFeed",
+    component: BlogFeed,
+  },
+  {
     path: "/blog/:id",
     name: "BlogPost",
     component: BlogPost,
@@ -57,7 +62,7 @@ const routes = [
   },
 
   {
-    path: "/about",
+    path: "/",
     name: "About",
     component: About,
   },

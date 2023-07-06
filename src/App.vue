@@ -2,14 +2,15 @@
   <div id="app">
     <div class="topnav no-select">
       <div>
-        <a
+        <router-link
           v-for="item in menuItems"
           :key="item.title"
-          :to="item.path"
-          @click="this.$router.push({ name: item.path })"
+          :to="{ name: item.path }"
+          active-class="active"
+          :class="{ 'active': isActive(item) }"
         >
           {{ item.title }}
-        </a>
+        </router-link>
       </div>
       <div class="dark-mode-btn-container">
         <v-btn
@@ -40,9 +41,9 @@ export default {
   name: "App",
   data: () => ({
     menuItems: [
-      { title: "Blog", path: "BlogFeed", icon: "face" },
-      { title: "Explore", path: "Explore", icon: "face" },
       { title: "About", path: "About", icon: "face" },
+      { title: "Explore", path: "Explore", icon: "face" },
+      { title: "Blog", path: "BlogFeed", icon: "face" },
     ],
   }),
   setup() {
@@ -61,6 +62,10 @@ export default {
       document.documentElement.style.setProperty(
         "--main-span-color",
         newVal ? "#2ab8ff" : "blue"
+      );
+      document.documentElement.style.setProperty(
+        "--main-card-color",
+        newVal ? "#333" : "white"
       );
     };
 
@@ -118,10 +123,21 @@ export default {
       toggleTheme,
     };
   },
+  methods: {
+    isActive(menuItem) {
+      var tmp = "/" + menuItem.title.toLowerCase();
+      return this.$route.path.startsWith(tmp);
+    },
+  },
 };
 </script>
 
 <style>
+#app {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
 .main-page-container {
   max-width: 900px;
   margin-right: auto;
@@ -138,6 +154,11 @@ span {
   cursor: pointer;
   color: var(--main-span-color) !important;
   text-decoration: underline;
+}
+
+a.active {
+  background-color: #dddddd !important;
+  color: black !important;
 }
 
 .main-page-content {
