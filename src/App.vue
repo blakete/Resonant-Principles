@@ -8,6 +8,7 @@
           :to="{ name: item.path }"
           active-class="active"
           :class="{ 'active': isActive(item) }"
+          style="font-size: 18px;"
         >
           {{ item.title }}
         </router-link>
@@ -169,6 +170,10 @@ a.active {
   height: 54px;
   background-color: #333;
   color: white;
+}
+
+.v-breadcrumbs-item {
+  font-size: 18px !important;
 }
 
 ol {
