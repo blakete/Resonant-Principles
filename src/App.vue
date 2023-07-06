@@ -1,15 +1,30 @@
 <template>
   <div id="app">
     <div class="topnav no-select">
-      <a v-for="item in menuItems" :key="item.title" :to="item.path" @click="this.$router.push({ name: item.path })">
-        {{ item.title }}
-      </a>
+      <div>
+        <a
+          v-for="item in menuItems"
+          :key="item.title"
+          :to="item.path"
+          @click="this.$router.push({ name: item.path })"
+        >
+          {{ item.title }}
+        </a>
+      </div>
+      <div class="dark-mode-btn-container">
+        <v-btn
+          class="my-button"
+          size="large"
+          density="compact"
+          :icon="isDarkMode ? 'mdi-weather-sunny' : 'mdi-weather-night'"
+          color="gray"
+          @click="toggleTheme"
+        >
+        </v-btn>
+      </div>
     </div>
     <div>
-      <v-breadcrumbs :items="visibleBreadcrumbItems">
-        <template v-slot:prepend>
-          <v-icon size="small" icon="mdi-vuetify"></v-icon>
-        </template>
+      <v-breadcrumbs class="breadcrumb-bar" :items="visibleBreadcrumbItems">
       </v-breadcrumbs>
     </div>
 
@@ -18,54 +33,92 @@
 </template>
 
 <script>
-import { computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { computed, ref, onMounted, watch, provide } from "vue";
+import { useRoute } from "vue-router";
 
 export default {
-  name: 'App',
+  name: "App",
   data: () => ({
     menuItems: [
       { title: "Blog", path: "BlogFeed", icon: "face" },
       { title: "Explore", path: "Explore", icon: "face" },
       { title: "About", path: "About", icon: "face" },
-    ]
+    ],
   }),
   setup() {
-    const route = useRoute()
-    const maxVisibleItems = 3
+    // DARK MODE STUFF
+    const isDarkMode = ref(localStorage.getItem("isDarkMode") === "true");
+
+    const updateCSSVariables = (newVal) => {
+      document.documentElement.style.setProperty(
+        "--main-bg-color",
+        newVal ? "black" : "white"
+      );
+      document.documentElement.style.setProperty(
+        "--main-text-color",
+        newVal ? "white" : "black"
+      );
+      document.documentElement.style.setProperty(
+        "--main-span-color",
+        newVal ? "#2ab8ff" : "blue"
+      );
+    };
+
+    onMounted(() => {
+      updateCSSVariables(isDarkMode.value);
+    });
+
+    watch(isDarkMode, (newVal) => {
+      localStorage.setItem("isDarkMode", newVal);
+      updateCSSVariables(newVal);
+    });
+
+    const toggleTheme = () => {
+      isDarkMode.value = !isDarkMode.value;
+    };
+
+    provide("isDarkMode", isDarkMode); // providing isDarkMode to child components
+
+    // BREADCRUMB NAV STUFF
+    const route = useRoute();
+    const maxVisibleItems = 3;
 
     const breadcrumbItems = computed(() => {
-      const paths = route.path.split('/').filter(path => path)
+      const paths = route.path.split("/").filter((path) => path);
 
       return paths.map((path, index) => {
         return {
           title: path,
           disabled: index === paths.length - 1,
-          href: '/' + paths.slice(0, index + 1).join('/')
-        }
-      })
-    })
+          href: "/" + paths.slice(0, index + 1).join("/"),
+        };
+      });
+    });
 
     const visibleBreadcrumbItems = computed(() => {
-      const items = breadcrumbItems.value
+      const items = breadcrumbItems.value;
 
       if (items.length > maxVisibleItems) {
         return [
           ...items.slice(0, 1),
           {
-            title: '...',
-            disabled: true
+            title: "...",
+            disabled: true,
           },
-          ...items.slice(items.length - maxVisibleItems + 1)
-        ]
+          ...items.slice(items.length - maxVisibleItems + 1),
+        ];
       } else {
-        return items
+        return items;
       }
-    })
+    });
 
-    return { visibleBreadcrumbItems }
-  }
-}
+    return {
+      visibleBreadcrumbItems,
+      isDarkMode,
+      toggleTheme,
+    };
+  },
+};
 </script>
 
 <style>
@@ -77,10 +130,24 @@ export default {
   padding-left: 30px;
   padding-top: 30px;
   padding-bottom: 50px;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+span {
+  cursor: pointer;
+  color: var(--main-span-color) !important;
+  text-decoration: underline;
 }
 
 .main-page-content {
   min-height: 100vh;
+}
+
+.breadcrumb-bar {
+  height: 54px;
+  background-color: #333;
+  color: white;
 }
 
 ol {
@@ -116,6 +183,9 @@ li {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  height: 53.5px;
 }
 
 .topnav a {
@@ -132,13 +202,26 @@ li {
   color: black;
 }
 
+.dark-mode-btn-container {
+  height: 100%;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .topnav a.active {
   background-color: #0363f3;
   color: white;
 }
 
 .no-select {
-    user-select: none;
-    cursor: pointer;
+  user-select: none;
+  cursor: pointer;
+}
+
+.my-button .v-btn__content {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 </style>
