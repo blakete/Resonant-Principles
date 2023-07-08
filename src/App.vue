@@ -157,6 +157,12 @@ span {
   text-decoration: underline;
 }
 
+li a {
+  cursor: pointer;
+  color: var(--main-span-color) !important;
+  text-decoration: underline;
+}
+
 a.active {
   background-color: #dddddd !important;
   color: black !important;

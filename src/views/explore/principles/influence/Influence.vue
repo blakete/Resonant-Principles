@@ -13,22 +13,26 @@
                         <a href="#consistency">Consistency</a>
                     </li>
                     <li>
-                        <a href="#likability">Likability</a>
+                        <a href="#authority">Authority</a>
                     </li>
                     <li>
                         <a href="#reciprocity">Reciprocity</a>
                     </li>
                     <li>
-                        <a href="#authority">Authority</a>
+                        <a href="#likability">Likability</a>
+                    </li>
+                    <li>
+                        <a href="#unity">Unity</a>
                     </li>
                     <li>
                         <a href="#social_proof">Social Proof</a>
                     </li>
                     <li>
-                        <a href="#unity">Unity</a>
+                        <a href="#mnemonic_device">Mnemonic Device</a>
                     </li>
                 </ol>
             </div>
+            <br>
             <div>
                 <div>
                     <h2>
@@ -39,6 +43,8 @@
                         psychology. Scarcity is more powerful than urgency.
                     </p>
                 </div>
+                <br>
+
                 <div>
                     <h2>
                         <a id="consistency">Consistency</a>
@@ -47,6 +53,8 @@
                         People want to remain consistent in what they do and say.
                     </p>
                 </div>
+                <br>
+
                 <div>
                     <h2>
                         <a id="likability">Likability</a>
@@ -56,6 +64,8 @@
                         (similarities).
                     </p>
                 </div>
+                <br>
+
                 <div>
                     <h2>
                         <a id="reciprocity">Reciprocity</a>
@@ -64,6 +74,8 @@
                         People feel obligated to give back.
                     </p>
                 </div>
+                <br>
+
                 <div>
                     <h2>
                         <a id="authority">Authority</a>
@@ -73,15 +85,19 @@
                         experience in their craft.
                     </p>
                 </div>
+                <br>
+
                 <div>
                     <h2>
-                        
+
                         <a id="social_proof">Social Proof</a>
                     </h2>
                     <p>
                         People are influenced by people who have credible people that vouch for them.
                     </p>
                 </div>
+                <br>
+
                 <div>
                     <h2>
                         <a id="unity">Unity</a>
@@ -90,9 +106,25 @@
                         People are influenced by people who have a shared identity or group membership ('We' group).
                     </p>
                 </div>
+                <br>
+
+                <div>
+                    <h2>
+                        <a id="mnemonic_device">Mnemonic Device to Memorize the Principles</a>
+                    </h2>
+                    <p>
+                        Here is a useful mnemonic device to memorize these principles. <br>
+                        SCARLUS: Sally Can Always Run Laps Under the Sun. <br>
+                        Scarcity, Consistency, Authority, Reciprocity, Likability, Likaability, Unity, Social
+                        Proof.
+                    </p>
+                </div>
+                <br>
             </div>
 
         </div>
+        <br>
+        <br>
         <section class='comments' aria-labelledby="comment">
             <h2 id="comment">Comments</h2>
             <Disqus />
@@ -107,4 +139,4 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style></style>
