@@ -3,6 +3,7 @@
         <div class="main-page-content">
             <h1>Principles of Influence ⚖️</h1>
             <br>
+            
             <div>
                 <h2>Table of Contents</h2>
                 <ol>
@@ -33,6 +34,7 @@
                 </ol>
             </div>
             <br>
+
             <div>
                 <div>
                     <h2>

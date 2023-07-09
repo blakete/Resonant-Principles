@@ -7,8 +7,8 @@
                 <li>
                     Data Architecture
                 </li>
-                <li>
-                    Database Systems
+                <li @click="this.$router.push({ name: 'DatabaseSystems' })">
+                    <span>Database Systems</span>
                 </li>
                 <li>
                     Data Storage

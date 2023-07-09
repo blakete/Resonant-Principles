@@ -191,7 +191,7 @@ ol ol {
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h1 {

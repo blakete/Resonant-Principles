@@ -27,6 +27,13 @@ import ComplexityTheory from "@/views/explore/fundamentals/computation/complexit
 import Algorithms from "@/views/explore/fundamentals/computation/algorithms/Algorithms.vue"
 import DataStructures from "@/views/explore/fundamentals/computation/data-structures/DataStructures.vue"
 import DataEngineering from "@/views/explore/fundamentals/computation/data-engineering/DataEngineering.vue"
+import DatabaseSystems from "@/views/explore/fundamentals/computation/data-engineering/database-systems/DatabaseSystems.vue"
+import DataLanguages from "@/views/explore/fundamentals/computation/data-engineering/database-systems/data-languages/DataLanguages.vue"
+
+import DataDefinitionLanguages from "@/views/explore/fundamentals/computation/data-engineering/database-systems/data-languages/DataDefinitionLanguages.vue"
+import DataManipulationLanguages from "@/views/explore/fundamentals/computation/data-engineering/database-systems/data-languages/DataManipulationLanguages.vue"
+import QueryLanguages from "@/views/explore/fundamentals/computation/data-engineering/database-systems/data-languages/QueryLanguages.vue"
+
 import SoftwareEngineering from "@/views/explore/fundamentals/computation/software-engineering/SoftwareEngineering.vue"
 import SoftwareDesignPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/SoftwareDesignPatterns.vue"
 import CreationalPatterns from "@/views/explore/fundamentals/computation/software-engineering/software-design-patterns/CreationalPatterns.vue"
@@ -158,6 +165,32 @@ const routes = [
     name: "DataEngineering",
     component: DataEngineering,
   },
+  {
+    path: "/explore/fundamentals/computation/data-engineering/database-systems",
+    name: "DatabaseSystems",
+    component: DatabaseSystems,
+  },
+  {
+    path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages",
+    name: "DataLanguages",
+    component: DataLanguages,
+  },
+  {
+    path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages/data-definition-languages",
+    name: "DataDefinitionLanguages",
+    component: DataDefinitionLanguages,
+  },
+  {
+    path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages/data-manipulation-languages",
+    name: "DataManipulationLanguages",
+    component: DataManipulationLanguages,
+  },
+  {
+    path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages/query-languages",
+    name: "QueryLanguages",
+    component: QueryLanguages,
+  },
+
   {
     path: "/explore/fundamentals/computation/software-engineering",
     name: "SoftwareEngineering",
