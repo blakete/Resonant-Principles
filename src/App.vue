@@ -68,6 +68,10 @@ export default {
         "--main-card-color",
         newVal ? "#333" : "white"
       );
+      document.documentElement.style.setProperty(
+        "--main-block-quote-color",
+        newVal ? "#7d7d7d" : "#EDEDED"
+      );
     };
 
     onMounted(() => {

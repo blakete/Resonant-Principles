@@ -63,12 +63,13 @@ li {
     margin: 40px 0px;
     font-family: Open Sans;
     font-style: italic;
-    color: #555555;
+    color: var(--main-text-color);
     padding: 1.2em 30px 1.2em 75px;
     border-left: 8px solid #78C0A8;
     line-height: 1.6;
     position: relative;
-    background: #EDEDED;
+    background: var(--main-block-quote-color);
+    /* background-color: #5d5d5d; */
 }
 
 .otro-blockquote::before {
