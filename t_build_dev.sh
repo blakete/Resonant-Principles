@@ -1,1 +1,1 @@
-docker build -f Dockerfile.dev --network host -t web-app-dev-container .
+DOCKER_BUILDKIT=1 docker build --progress=plain -f Dockerfile.dev --network host -t web-app-dev-container .

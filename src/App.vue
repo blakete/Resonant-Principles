@@ -157,7 +157,7 @@ span {
   text-decoration: underline;
 }
 
-li a {
+ol li a {
   cursor: pointer;
   color: var(--main-span-color) !important;
   text-decoration: underline;
