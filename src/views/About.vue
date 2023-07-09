@@ -31,6 +31,8 @@
                 </p>
             </section>
         </div>
+        <br>
+        <br>
         <section class='comments' aria-labelledby="comment">
             <h2 id="comment">Comments</h2>
             <Disqus />
