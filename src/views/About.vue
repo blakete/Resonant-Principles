@@ -8,6 +8,10 @@
                     they resonate with you too. 😊
                 </p>
                 <blockquote class="otro-blockquote">
+                    Alone we can do so little; together we can do so much.
+                    <span>Helen Keller</span>
+                </blockquote>
+                <blockquote class="otro-blockquote">
                     I believe in the discipline of mastering the best of what other people have figured out.
                     <span>Charlie Munger</span>
                 </blockquote>

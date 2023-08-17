@@ -10,5 +10,11 @@
     "title": "Continuous Improvement 🔄",
     "last_updated": "Jan 5, 2023",
     "content": "coming soon"
+  },
+  {
+    "id": 2,
+    "title": "Making Good Decisions 🧭",
+    "last_updated": "Aug 16, 2023",
+    "content": "<div><h2>What is a decision?</h2> <p>A choice made between two or more available alternatives.</p> <h2>Why are decisions important?</h2> <p>Decisions direct our actions, determine outcomes, and shape our personal and professional lives.</p> <p><img src=\"/images/image2.png\" /></p> <h2>Structured Decision-Making Framework</h2> <p><img src=\"/images/image1.png\" /></p> <p></p> <ol> <li>Objective Setting</li> </ol> <ol> <li>Define the goals. Make your goals as solution neutral as possible.</li> </ol> <ol> <li>Criteria Development</li> </ol> <ol> <li>Define the criteria and measures of evaluation. Make your criteria as solution neutral as possible.</li> </ol> <ol> <li>Resources, Constraints &amp; Time Sensitivity</li> </ol> <ol> <li>What are the tangible factors and timeline that shape the decision?</li> </ol> <ol> <li>Alternative Analysis: </li> </ol> <ol> <li>Generate viable options and compare them based on the objectives and evaluation criteria.</li> <li>Methods: MAU, sensitivity analysis</li> </ol> <ol> <li>Impact &amp; Propagation Analysis</li> </ol> <ol> <li>Evaluate the potential positive or negative outcomes, and understand the scale and significance of its effects.</li> <li>Analyze how the decision will play out in the long run, its ripple effects, and 2nd, 3rd, nth order consequences.</li> </ol> <ol> <li>Alternative Selection</li> </ol> <h2>Popular Decision-Making Frameworks</h2> <ul> <li>Cost-Benefit Analysis</li> <li>Decision Matrix</li> <li>Expected Value Calculation</li> </ul> <h2>Common Pitfalls</h2> <ul> <li>Analysis paralysis: </li> <li>Confirmation bias: </li> <li>Sunk Cost Fallacy: </li> <li>Recency Bias / Availability Heuristic</li> <li>Status Quo Bias</li> <li>Loss Aversion</li> <li>Self-serving Bias</li> </ul> <p></p> </div>"
   }
 ]
