@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-blog_post_html_path = '/home/iuris/Downloads/MakingGoodDecisions.html'
+blog_post_html_path = '/home/iuris/visible/Resonant-Principles/public/output.html'
 with open(blog_post_html_path, 'r', encoding='utf-8') as file:
     html_content = file.read()
 
