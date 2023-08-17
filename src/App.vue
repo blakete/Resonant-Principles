@@ -19,7 +19,7 @@
           size="large"
           density="compact"
           :icon="isDarkMode ? 'mdi-weather-sunny' : 'mdi-weather-night'"
-          color="gray"
+          :color="isDarkMode ? '#fffee0' : '#f0e0ff'"
           @click="toggleTheme"
         >
         </v-btn>

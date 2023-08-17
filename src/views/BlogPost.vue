@@ -63,4 +63,23 @@ span {
     color: blue;
     text-decoration: underline;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally */
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 900px !important;
+    /* Image's maximum width */
+    width: 100% !important;
+    /* Make sure the image isn't stretched */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+    display: block;
+    /* Remove any unwanted whitespace around the image */
+    margin: auto;
+}
 </style>
