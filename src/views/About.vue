@@ -19,20 +19,27 @@
                     If I have seen further [than others], it is by standing on the shoulders of giants.
                     <span>Isaac Newton</span>
                 </blockquote>
-                <h2>Disclaimer</h2>
-                <p>
-                    The content of this web page is curated from various sources and is not original content. All
-                    credit goes to
-                    the original authors and sources. This page is intended for informational purposes only and is
-                    not intended
-                    to take credit for the original content.
-                </p>
-                <h2>Maintainer</h2>
-                <p>
-                    <a href="https://www.linkedin.com/in/blakete/">Blake Edwards</a> created and maintains this website.
-                    The source code for it can be found <a
-                        href="https://github.com/blakete/Resonant-Principles">here</a>.
-                </p>
+
+                <div>
+                    <h2>Maintainer</h2>
+                    <p>
+                        <a href="https://www.linkedin.com/in/blakete/">Blake Edwards</a> created and maintains this website.
+                        The source code for it can be found <a
+                            href="https://github.com/blakete/Resonant-Principles">here</a>.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Disclaimer</h2>
+                    <p>
+                        The content of this web page is curated from various sources and is not original content. All
+                        credit goes to
+                        the original authors and sources. This page is intended for informational purposes only and is
+                        not intended
+                        to take credit for the original content.
+                    </p>
+                </div>
+
             </section>
         </div>
         <br>
