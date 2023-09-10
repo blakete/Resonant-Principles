@@ -204,12 +204,14 @@ h1 {
 
 h2 {
   font-size: 26px;
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 li {

@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-blog_post_html_path = '/home/iuris/visible/Resonant-Principles/public/output.html'
+blog_post_html_path = 'public/output.html'
 with open(blog_post_html_path, 'r', encoding='utf-8') as file:
     html_content = file.read()
 
@@ -22,7 +22,7 @@ for span in soup.find_all('span'):
 cleaned_html = str(soup)
 
 # Write the cleaned HTML to a new file
-with open('public/output.html', 'w', encoding='utf-8') as file:
+with open('public/cleaned_output.html', 'w', encoding='utf-8') as file:
     file.write(cleaned_html)
 
 print("HTML has been cleaned and written to output.html")
