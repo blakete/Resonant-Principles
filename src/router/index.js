@@ -44,10 +44,10 @@ import SoftwareArchitecture from "@/views/explore/fundamentals/computation/softw
 // import Mindsets from "@/views/explore/mindsets/Mindsets.vue"
 
 const routes = [
-  { 
+  {
     path: '/:pathMatch(.*)*',
-    name: 'not-found', 
-    component: NotFound 
+    name: 'not-found',
+    component: NotFound
   },
 
   // BLOG ROUTES
@@ -239,9 +239,13 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   /* eslint-disable no-unused-vars */
-  scrollBehavior(_to, _from, _savedPosition) {
-    // always scroll to top
-    return { top: 0 }
+  scrollBehavior(_to, _from, savedPosition) {
+    // if savedPosition is available (i.e., navigating back), return it
+    if (savedPosition) {
+      return savedPosition;
+    }
+    // otherwise, always scroll to the top
+    return { top: 0 };
   },
 });
 
