@@ -4,6 +4,8 @@
             <h1>Fundamentals 🔠</h1>
             <br>
             <ol>
+                <li>Physics</li>
+                <li>Mathematics</li>
                 <li @click="this.$router.push({ name: 'Cognition' })">
                     <span>Cognition</span>
                 </li>
