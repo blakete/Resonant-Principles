@@ -57,11 +57,6 @@ const routes = [
     component: BlogFeed,
   },
   {
-    path: "/blog",
-    name: "BlogFeed",
-    component: BlogFeed,
-  },
-  {
     path: "/blog/:id",
     name: "BlogPost",
     component: BlogPost,
@@ -69,7 +64,7 @@ const routes = [
   },
 
   {
-    path: "/",
+    path: "/about",
     name: "About",
     component: About,
   },
