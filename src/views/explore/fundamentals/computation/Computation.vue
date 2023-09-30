@@ -4,23 +4,23 @@
             <h1>Computation 💻</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'ModelsOfComputation' })">
-                    <span>Models of Computation</span>
+                <li>
+                    <router-link :to="{ name: 'Models of Computation' }">Models of Computation</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'ComplexityTheory' })">
-                    <span>Complexity Theory</span>
+                <li>
+                    <router-link :to="{ name: 'Complexity Theory' }">Complexity Theory</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'Algorithms' })">
-                    <span>Algorithms</span>
+                <li>
+                    <router-link :to="{ name: 'Algorithms' }">Algorithms</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'DataStructures' })">
-                    <span>Data Structures</span>
+                <li>
+                    <router-link :to="{ name: 'Data Structures' }">Data Structures</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'DataEngineering' })">
-                    <span>Data Engineering</span>
+                <li>
+                    <router-link :to="{ name: 'Data Engineering' }">Data Engineering</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'SoftwareEngineering' })">
-                    <span>Software Engineering</span>
+                <li>
+                    <router-link :to="{ name: 'Software Engineering' }">Software Engineering</router-link>
                 </li>
             </ol>
         </div>

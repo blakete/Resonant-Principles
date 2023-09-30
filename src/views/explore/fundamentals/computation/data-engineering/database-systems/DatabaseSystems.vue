@@ -4,8 +4,8 @@
             <h1>Database Systems 📀</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'DataLanguages' })">
-                    <span>Data Languages</span>
+                <li>
+                    <router-link :to="{ name: 'Data Languages' }">Data Languages</router-link>
                 </li>
             </ol>
         </div>

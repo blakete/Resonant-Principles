@@ -8,14 +8,14 @@
 
             <div>
                 <ol>
-                    <li @click="this.$router.push({ name: 'DataDefinitionLanguages' })">
-                        <span>Data Definition Languages (DDL)</span>
+                    <li>
+                        <router-link :to="{ name: 'Data Definition Languages' }">Data Definition Languages (DDL)</router-link>
                     </li>
-                    <li @click="this.$router.push({ name: 'DataManipulationLanguages' })">
-                        <span>Data Manipulation Languages (DML)</span>
+                    <li>
+                        <router-link :to="{ name: 'Data Manipulation Languages' }">Data Manipulation Languages (DML)</router-link>
                     </li>
-                    <li @click="this.$router.push({ name: 'QueryLanguages' })">
-                        <span>Query Languages</span>
+                    <li>
+                        <router-link :to="{ name: 'Query Languages' }">Query Languages</router-link>
                     </li>
                 </ol>
             </div>

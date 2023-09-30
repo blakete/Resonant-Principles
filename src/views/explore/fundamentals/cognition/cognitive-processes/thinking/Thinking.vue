@@ -4,8 +4,8 @@
             <h1>Thinking Processes 🤔</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'DecisionMaking' })">
-                    <span>Decision Making</span>
+                <li>
+                    <router-link :to="{ name: 'Decision Making' }">Decision Making</router-link>
                 </li>
                 <li>
                     Reasoning

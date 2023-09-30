@@ -16,8 +16,8 @@
                 <li>
                     Language
                 </li>
-                <li @click="this.$router.push({ name: 'Thinking' })">
-                    <span>Thinking</span>
+                <li>
+                    <router-link :to="{ name: 'Thinking' }">Thinking</router-link>
                 </li>
             </ol>
         </div>

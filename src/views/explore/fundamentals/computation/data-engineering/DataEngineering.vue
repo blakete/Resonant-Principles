@@ -7,8 +7,8 @@
                 <li>
                     Data Architecture
                 </li>
-                <li @click="this.$router.push({ name: 'DatabaseSystems' })">
-                    <span>Database Systems</span>
+                <li>
+                    <router-link :to="{ name: 'Database Systems' }">Database Systems</router-link>
                 </li>
                 <li>
                     Data Storage

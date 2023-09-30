@@ -4,8 +4,8 @@
             <h1>Principles 📜</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'Influence' })">
-                    <span>Principles of Influence</span>
+                <li>
+                    <router-link :to="{ name: 'Principles of Influence' }">Principles of Influence</router-link>
                 </li>
             </ol>
         </div>

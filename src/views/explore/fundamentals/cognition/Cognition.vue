@@ -4,11 +4,11 @@
             <h1>Cognition 🧠</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'CognitiveProcesses' })">
-                    <span>Cognitive Processes</span>
+                <li>
+                    <router-link :to="{ name: 'Cognitive Processes' }">Cognitive Processes</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'CognitiveStructures' })">
-                    <span>Cognitive Structures</span>
+                <li>
+                    <router-link :to="{ name: 'Cognitive Structures' }">Cognitive Structures</router-link>
                 </li>
                 <li>
                     Cognitive Styles

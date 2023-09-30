@@ -4,14 +4,14 @@
             <h1>Software Design Patterns 🧩</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'CreationalPatterns' })">
-                    <span>Creational Patterns</span>
+                <li>
+                    <router-link :to="{ name: 'Creational Patterns' }">Creational Patterns</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'StructuralPatterns' })">
-                    <span>Structural Patterns</span>
+                <li>
+                    <router-link :to="{ name: 'Structural Patterns' }">Structural Patterns</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'BehavioralPatterns' })">
-                    <span>Behavioral Patterns</span>
+                <li>
+                    <router-link :to="{ name: 'Behavioral Patterns' }">Behavioral Patterns</router-link>
                 </li>
             </ol>
         </div>

@@ -66,11 +66,11 @@ export default {
       );
       document.documentElement.style.setProperty(
         "--main-card-color",
-        newVal ? "#333" : "white"
+        newVal ? "rgb(44, 50, 51)" : "white"
       );
       document.documentElement.style.setProperty(
         "--main-block-quote-color",
-        newVal ? "#7d7d7d" : "#EDEDED"
+        newVal ? "rgb(44, 50, 51)" : "#EDEDED"
       );
     };
 
@@ -178,7 +178,7 @@ a.active {
 
 .breadcrumb-bar {
   height: 54px;
-  background-color: #333;
+  background-color: rgb(44, 50, 51);
   color: white;
 }
 
@@ -220,7 +220,7 @@ li {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(44, 50, 51);
   display: flex;
   justify-content: space-between;
   height: 53.5px;

@@ -5,14 +5,14 @@
             <p>Cognitive structures are basic mental patterns used to process information.</p>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'MentalModels' })">
-                    <span>Mental Models</span>
+                <li>
+                    <router-link :to="{ name: 'Mental Models' }">Mental Models</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'CognitiveSchemas' })">
-                    <span>Schemas</span>
+                <li>
+                    <router-link :to="{ name: 'Cognitive Schemas' }">Schemas</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'CognitiveScripts' })">
-                    <span>Scripts</span>
+                <li>
+                    <router-link :to="{ name: 'Cognitive Scripts' }">Scripts</router-link>
                 </li>
             </ol>
         </div>

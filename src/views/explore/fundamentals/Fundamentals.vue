@@ -6,11 +6,11 @@
             <ol>
                 <li>Physics</li>
                 <li>Mathematics</li>
-                <li @click="this.$router.push({ name: 'Cognition' })">
-                    <span>Cognition</span>
+                <li>
+                    <router-link :to="{ name: 'Cognition' }">Cognition</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'Computation' })">
-                    <span>Computation</span>
+                <li>
+                    <router-link :to="{ name: 'Computation' }">Computation</router-link>
                 </li>
             </ol>
         </div>

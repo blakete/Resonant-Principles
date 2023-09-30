@@ -4,11 +4,11 @@
             <h1>Software Engineering 🛠️</h1>
             <br>
             <ol>
-                <li @click="this.$router.push({ name: 'SoftwareDesignPatterns' })">
-                    <span>Software Design Patterns</span>
+                <li>
+                    <router-link :to="{ name: 'Software Design Patterns' }">Software Design Patterns</router-link>
                 </li>
-                <li @click="this.$router.push({ name: 'SoftwareArchitecture' })">
-                    <span>Software Architecture</span>
+                <li>
+                    <router-link :to="{ name: 'Software Architecture' }">Software Architecture</router-link>
                 </li>
             </ol>
         </div>

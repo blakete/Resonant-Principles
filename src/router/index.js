@@ -88,7 +88,7 @@ const routes = [
   },
   {
     path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-processes",
-    name: "CognitiveProcesses",
+    name: "Cognitive Processes",
     component: CognitiveProcesses,
   },
   {
@@ -98,34 +98,34 @@ const routes = [
   },
   {
     path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-processes/thinking/decision-making",
-    name: "DecisionMaking",
+    name: "Decision Making",
     component: DecisionMaking,
   },
   {
     path: "/explore/fundamentals/cognition/cognitive-structures",
-    name: "CognitiveStructures",
+    name: "Cognitive Structures",
     component: CognitiveStructures,
   },
 
   {
     path: "/explore/fundamentals/cognition/cognitive-structures/mental-models",
-    name: "MentalModels",
+    name: "Mental Models",
     component: MentalModels,
   },
   {
     path: "/explore/fundamentals/cognition/cognitive-structures/schemas",
-    name: "CognitiveSchemas",
+    name: "Cognitive Schemas",
     component: Schemas,
   },
   {
     path: "/explore/fundamentals/cognition/cognitive-structures/cognitive-scripts",
-    name: "CognitiveScripts",
+    name: "Cognitive Scripts",
     component: CognitiveScripts,
   },
 
   {
     path: "/explore/fundamentals/cognition/biases",
-    name: "CognitiveBiases",
+    name: "Cognitive Biases",
     component: CognitiveBiases,
   },
 
@@ -137,12 +137,12 @@ const routes = [
   },
   {
     path: "/explore/fundamentals/computation/models-of-computation",
-    name: "ModelsOfComputation",
+    name: "Models of Computation",
     component: ModelsOfComputation,
   },
   {
     path: "/explore/fundamentals/computation/complexity-theory",
-    name: "ComplexityTheory",
+    name: "Complexity Theory",
     component: ComplexityTheory,
   },
   {
@@ -152,68 +152,68 @@ const routes = [
   },
   {
     path: "/explore/fundamentals/computation/data-structures",
-    name: "DataStructures",
+    name: "Data Structures",
     component: DataStructures,
   },
   {
     path: "/explore/fundamentals/computation/data-engineering",
-    name: "DataEngineering",
+    name: "Data Engineering",
     component: DataEngineering,
   },
   {
     path: "/explore/fundamentals/computation/data-engineering/database-systems",
-    name: "DatabaseSystems",
+    name: "Database Systems",
     component: DatabaseSystems,
   },
   {
     path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages",
-    name: "DataLanguages",
+    name: "Data Languages",
     component: DataLanguages,
   },
   {
     path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages/data-definition-languages",
-    name: "DataDefinitionLanguages",
+    name: "Data Definition Languages",
     component: DataDefinitionLanguages,
   },
   {
     path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages/data-manipulation-languages",
-    name: "DataManipulationLanguages",
+    name: "Data Manipulation Languages",
     component: DataManipulationLanguages,
   },
   {
     path: "/explore/fundamentals/computation/data-engineering/database-systems/data-languages/query-languages",
-    name: "QueryLanguages",
+    name: "Query Languages",
     component: QueryLanguages,
   },
 
   {
     path: "/explore/fundamentals/computation/software-engineering",
-    name: "SoftwareEngineering",
+    name: "Software Engineering",
     component: SoftwareEngineering,
   },
   {
     path: "/explore/fundamentals/computation/software-engineering/design-patterns",
-    name: "SoftwareDesignPatterns",
+    name: "Software Design Patterns",
     component: SoftwareDesignPatterns,
   },
   {
     path: "/explore/fundamentals/computation/software-engineering/design-patterns/creational",
-    name: "CreationalPatterns",
+    name: "Creational Patterns",
     component: CreationalPatterns,
   },
   {
     path: "/explore/fundamentals/computation/software-engineering/design-patterns/structural",
-    name: "StructuralPatterns",
+    name: "Structural Patterns",
     component: StructuralPatterns,
   },
   {
     path: "/explore/fundamentals/computation/software-engineering/design-patterns/behavioral",
-    name: "BehavioralPatterns",
+    name: "Behavioral Patterns",
     component: BehavioralPatterns,
   },
   {
     path: "/explore/fundamentals/computation/software-engineering/software-architecture",
-    name: "SoftwareArchitecture",
+    name: "Software Architecture",
     component: SoftwareArchitecture
   },
 
@@ -224,7 +224,7 @@ const routes = [
   },
   {
     path: "/explore/principles/influence",
-    name: "Influence",
+    name: "Principles of Influence",
     component: Influence,
   }
 
